@@ -16,25 +16,25 @@ public class ObstacleMovement : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 break;
             case 1:
-                transform.position = new Vector3(transform.position.x + 5.1f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x + 3.1f, transform.position.y, transform.position.z);
                 break;
             case 2:
-                transform.position = new Vector3(transform.position.x + 10.2f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x + 6.2f, transform.position.y, transform.position.z);
                 break;
             case 3:
-                transform.position = new Vector3(transform.position.x - 5.1f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x - 3.1f, transform.position.y, transform.position.z);
                 break;
             case 4:
-                transform.position = new Vector3(transform.position.x - 10.2f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x - 6.2f, transform.position.y, transform.position.z);
                 break;
         }
     }
 
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.localPosition.x, 0, -70), 0.1f);
+        transform.Translate(Vector3.back * 10 * Time.deltaTime);
 
-        if (transform.localPosition.z <= -70)
+        if (transform.localPosition.z <= -100)
         {
             gameObject.SetActive(false);
         }
