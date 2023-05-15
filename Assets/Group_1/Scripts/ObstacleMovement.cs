@@ -5,6 +5,8 @@ using UnityEngine;
 public class ObstacleMovement : MonoBehaviour
 {
     private float x;
+    [SerializeField] AnimationCurve MoveSpeed;
+    float time;
     private void OnEnable()
     {
         int rng = Random.Range(0,5);
@@ -30,9 +32,14 @@ public class ObstacleMovement : MonoBehaviour
         }
     }
 
+    public void updateTime(float t)
+    {
+        time = t;
+    }
+
     private void Update()
     {
-        transform.Translate(Vector3.back * 10 * Time.deltaTime);
+        transform.Translate(Vector3.back * MoveSpeed.Evaluate(time) * Time.deltaTime);
 
         if (transform.localPosition.z <= -100)
         {

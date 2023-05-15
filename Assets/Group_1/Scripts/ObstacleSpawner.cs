@@ -6,19 +6,20 @@ public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] AnimationCurve SpawnSpeed;
     [SerializeField] AnimationCurve NumberOfSpawns;
-    [SerializeField] float Time;
+    float time;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(spawnUnit());
+        StartCoroutine(Timer());
     }
 
     IEnumerator spawnUnit()
     {
         while (true)
         {
-            for (int i = 0; i < Random.Range(1, (int)NumberOfSpawns.Evaluate(Time)); i++)
+            for (int i = 0; i < Random.Range(1, (int)NumberOfSpawns.Evaluate(time)); i++)
             {
                 int rng = Random.Range(0, transform.childCount);
                 bool stop = true;
@@ -39,7 +40,20 @@ public class ObstacleSpawner : MonoBehaviour
                 yield return new WaitForSeconds(0.1f);
             }
 
-            yield return new WaitForSeconds(SpawnSpeed.Evaluate(Time));
+            yield return new WaitForSeconds(SpawnSpeed.Evaluate(time));
+        }
+    }
+
+    IEnumerator Timer()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(0.1f);
+            time = time + 0.1f;
+            foreach (Transform child in transform)
+            {
+                child.GetComponent<ObstacleMovement>().updateTime(time);
+            }
         }
     }
 }
