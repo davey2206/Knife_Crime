@@ -18,16 +18,16 @@ public class ObstacleMovement : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 break;
             case 1:
-                transform.position = new Vector3(transform.position.x + 3.1f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x + 3f, transform.position.y, transform.position.z);
                 break;
             case 2:
-                transform.position = new Vector3(transform.position.x + 6.2f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x + 6f, transform.position.y, transform.position.z);
                 break;
             case 3:
-                transform.position = new Vector3(transform.position.x - 3.1f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x - 3f, transform.position.y, transform.position.z);
                 break;
             case 4:
-                transform.position = new Vector3(transform.position.x - 6.2f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x - 6f, transform.position.y, transform.position.z);
                 break;
         }
     }

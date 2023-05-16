@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RunnerPlayerMovement : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class RunnerPlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
-            Debug.Log("dead");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
