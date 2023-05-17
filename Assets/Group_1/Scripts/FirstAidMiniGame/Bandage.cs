@@ -10,32 +10,50 @@ public class Bandage : MonoBehaviour
     private int amountBandagesApplied = 0;
     public float minSwipeDistance = 50f;
     public GameObject[] bandage;
+    public GameObject[] directionalArrows;
     public GameObject appliedBandage;
+
+    private bool directionSet = false;
+    private int direction = 0;
+    private int swipedDirection = 0;
 
     void Start()
     {
         bandage[0].SetActive(false);
         bandage[1].SetActive(false);
         bandage[2].SetActive(false);
+
+        directionalArrows[0].SetActive(false);
+        directionalArrows[1].SetActive(false);
+        directionalArrows[2].SetActive(false);
+        directionalArrows[3].SetActive(false);
+
         appliedBandage.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (directionSet)
         {
-            swipeStartPos = Input.mousePosition;
-        }
-
-        if (Input.GetMouseButtonUp(0))
-        {
-            swipeEndPos = Input.mousePosition;
-            CheckSwipeGesture();
-            if (bandageIndex == 3)
+            if (Input.GetMouseButtonDown(0))
             {
-                StartCoroutine(CheckBandage());
+                swipeStartPos = Input.mousePosition;
             }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                swipeEndPos = Input.mousePosition;
+                CheckSwipeGesture();
+                if (bandageIndex == 3)
+                {
+                    StartCoroutine(CheckBandage());
+                }
+            }
+        }
+        else
+        {
+            RandomizeDirection();
         }
     }
 
@@ -51,31 +69,25 @@ public class Bandage : MonoBehaviour
             if (swipeDirection.y > 0.5f)
             {
                 Debug.Log("Swipe Up");
-                if(bandageIndex < 3)
-                {
-                    bandage[bandageIndex].SetActive(true);
-                    bandageIndex++;
-                }
+                CheckDirection(1);
                 // Implement your desired action for swipe up
             }
             else if (swipeDirection.y < -0.5f)
             {
                 Debug.Log("Swipe Down");
-                //if (bandageIndex > 0)
-                //{
-                //    bandageIndex--;
-                //    bandage[bandageIndex].SetActive(false);
-                //}
+                CheckDirection(3);
                 // Implement your desired action for swipe down
             }
             else if (swipeDirection.x > 0.5f)
             {
                 Debug.Log("Swipe Right");
+                CheckDirection(2);
                 // Implement your desired action for swipe right
             }
             else if (swipeDirection.x < -0.5f)
             {
                 Debug.Log("Swipe Left");
+                CheckDirection(0);
                 // Implement your desired action for swipe left
             }
         }
@@ -89,6 +101,7 @@ public class Bandage : MonoBehaviour
             bandage[0].SetActive(false);
             bandage[1].SetActive(false);
             bandage[2].SetActive(false);
+            directionalArrows[direction].SetActive(true);
             appliedBandage.SetActive(true);
         }
         else
@@ -99,10 +112,34 @@ public class Bandage : MonoBehaviour
         }
     }
 
+    public void CheckDirection(int directionInt)
+    {
+        if (direction == directionInt)
+        {
+            bandage[bandageIndex].SetActive(true);
+            bandageIndex++;
+        }
+        else
+        {
+            Debug.Log("WRONG");
+        }
+        directionalArrows[direction].SetActive(false);
+        directionSet = false;
+    }
+
+    public void RandomizeDirection()
+    {
+        direction = Random.Range(0, 4);
+        directionalArrows[direction].SetActive(true);
+        directionSet = true;
+    }
+
     IEnumerator CheckBandage()
     {
         yield return new WaitForSeconds(2);
         amountBandagesApplied++;
+        directionSet = false;
         ResetBandage();
+        StopAllCoroutines();
     }
 }
