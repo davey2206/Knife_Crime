@@ -16,11 +16,17 @@ public class RunnerPlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector3.right * 10 * Time.deltaTime);
+            if (transform.position.x < 7)
+            {
+                transform.Translate(Vector3.right * 10 * Time.deltaTime);
+            }
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector3.left * 10 * Time.deltaTime);
+            if (transform.position.x > -7)
+            {
+                transform.Translate(Vector3.left * 10 * Time.deltaTime);
+            }
         }
     }
 

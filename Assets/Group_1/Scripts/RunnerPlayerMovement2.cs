@@ -11,11 +11,18 @@ public class RunnerPlayerMovement2 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            StartCoroutine(Move(true));
+            if (transform.position.x !< 3.2)
+            {
+                StartCoroutine(Move(true));
+            }
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
-            StartCoroutine(Move(false));
+            if (transform.position.x !> -3.2)
+            {
+                StartCoroutine(Move(false));
+            }
+
         }
     }
 
