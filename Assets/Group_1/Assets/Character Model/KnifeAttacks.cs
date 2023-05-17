@@ -17,7 +17,7 @@ public class KnifeAttacks : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0) && !animator.IsInTransition(0))
         {
-            animator.Play("Stab");
+            animator.CrossFade("Stab",0,0);
 
         }
 
