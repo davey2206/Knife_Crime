@@ -34,26 +34,36 @@ public class Bandage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (directionSet)
+        if (amountBandagesApplied < 2)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (directionSet)
             {
-                swipeStartPos = Input.mousePosition;
-            }
-
-            if (Input.GetMouseButtonUp(0))
-            {
-                swipeEndPos = Input.mousePosition;
-                CheckSwipeGesture();
-                if (bandageIndex == 3)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    StartCoroutine(CheckBandage());
+                    swipeStartPos = Input.mousePosition;
                 }
+
+                if (Input.GetMouseButtonUp(0))
+                {
+                    swipeEndPos = Input.mousePosition;
+                    if (bandageIndex == 3)
+                    {
+                        StartCoroutine(CheckBandage());
+                    }
+                    else
+                    {
+                        CheckSwipeGesture();
+                    }
+                }
+            }
+            else
+            {
+                RandomizeDirection();
             }
         }
         else
         {
-            RandomizeDirection();
+            Debug.Log("Bandages applied!!!!!");
         }
     }
 
@@ -101,7 +111,7 @@ public class Bandage : MonoBehaviour
             bandage[0].SetActive(false);
             bandage[1].SetActive(false);
             bandage[2].SetActive(false);
-            directionalArrows[direction].SetActive(true);
+            directionalArrows[direction].SetActive(false);
             appliedBandage.SetActive(true);
         }
         else
@@ -110,6 +120,8 @@ public class Bandage : MonoBehaviour
             bandage[1].gameObject.GetComponent<Renderer>().material.color = Color.red;
             bandage[2].gameObject.GetComponent<Renderer>().material.color = Color.red;
         }
+        directionalArrows[direction].SetActive(false);
+        directionSet = false;
     }
 
     public void CheckDirection(int directionInt)
@@ -136,9 +148,9 @@ public class Bandage : MonoBehaviour
 
     IEnumerator CheckBandage()
     {
+        directionalArrows[direction].SetActive(false);
         yield return new WaitForSeconds(2);
         amountBandagesApplied++;
-        directionSet = false;
         ResetBandage();
         StopAllCoroutines();
     }
