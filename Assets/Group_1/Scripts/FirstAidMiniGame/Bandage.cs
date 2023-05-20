@@ -12,10 +12,12 @@ public class Bandage : MonoBehaviour
     public GameObject[] bandage;
     public GameObject[] directionalArrows;
     public GameObject appliedBandage;
+    public AudioSource audioSource;
+    public AudioClip bandageCorrect;
+    public AudioClip bandageWrong;
 
     private bool directionSet = false;
     private int direction = 0;
-    private int swipedDirection = 0;
 
     void Start()
     {
@@ -46,14 +48,7 @@ public class Bandage : MonoBehaviour
                 if (Input.GetMouseButtonUp(0))
                 {
                     swipeEndPos = Input.mousePosition;
-                    if (bandageIndex == 3)
-                    {
-                        StartCoroutine(CheckBandage());
-                    }
-                    else
-                    {
-                        CheckSwipeGesture();
-                    }
+                    CheckSwipeGesture();
                 }
             }
             else
@@ -128,15 +123,25 @@ public class Bandage : MonoBehaviour
     {
         if (direction == directionInt)
         {
+            audioSource.PlayOneShot(bandageCorrect);
             bandage[bandageIndex].SetActive(true);
             bandageIndex++;
         }
         else
         {
+            audioSource.PlayOneShot(bandageWrong);
             Debug.Log("WRONG");
         }
-        directionalArrows[direction].SetActive(false);
-        directionSet = false;
+
+        if (bandageIndex > 2)
+        {
+            StartCoroutine(CheckBandage());
+        }
+        else
+        {
+            directionalArrows[direction].SetActive(false);
+            directionSet = false;
+        }
     }
 
     public void RandomizeDirection()
@@ -153,5 +158,10 @@ public class Bandage : MonoBehaviour
         amountBandagesApplied++;
         ResetBandage();
         StopAllCoroutines();
+    }
+
+    public void TESTDELETEME()
+    {
+        Debug.Log("Repeat Dialogue");
     }
 }
