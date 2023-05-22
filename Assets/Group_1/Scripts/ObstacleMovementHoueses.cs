@@ -15,6 +15,7 @@ public class ObstacleMovementHoueses : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        getObjectInFront();
         time = time + Time.deltaTime;
 
         transform.Translate(Vector3.right * MoveSpeed.Evaluate(time) * Time.deltaTime);
@@ -22,6 +23,16 @@ public class ObstacleMovementHoueses : MonoBehaviour
         if (transform.localPosition.z <= -104)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, 75);
+        }
+    }
+
+    public void getObjectInFront()
+    {
+        RaycastHit hit;
+
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left), out hit, 5f))
+        {
+            transform.localPosition = new Vector3(0,0, hit.transform.parent.localPosition.z - 8);
         }
     }
 }
