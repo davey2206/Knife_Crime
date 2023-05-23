@@ -8,9 +8,11 @@ public class FirstAidDialogue : MonoBehaviour
     public AudioSource audioSource;
     public int dialogueContinuation = 0;
     
-    public void PlayDialogue()
+    public float PlayDialogue()
     {
         audioSource.PlayOneShot(dialogue[dialogueContinuation]);
+
+        return dialogue[dialogueContinuation].length;
     }
 
     public void NextDialogue()

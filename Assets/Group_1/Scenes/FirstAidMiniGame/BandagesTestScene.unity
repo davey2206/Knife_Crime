@@ -221,8 +221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7953243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.927, y: 2, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.7, z: 0.7}
+  m_LocalPosition: {x: -0.927, y: 1.992, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.65, z: 0.65}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -595,6 +595,8 @@ MonoBehaviour:
   audioSource: {fileID: 297344694}
   bandageCorrect: {fileID: 8300000, guid: 2132d2dbd0e20e64f887bffa90272d86, type: 3}
   bandageWrong: {fileID: 8300000, guid: 8da1ed2c81687084e92116d941e2c309, type: 3}
+  bandageApplied: 0
+  directionSet: 0
 --- !u!4 &297344693
 Transform:
   m_ObjectHideFlags: 0
@@ -721,7 +723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstAidNavigation: {fileID: 1331710804}
   dialogue: {fileID: 1630836148}
-  sequenceNumber: 0
+  applyingBandages: {fileID: 297344691}
 --- !u!1 &304982980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,8 +1238,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512387119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 0.6, z: 0.6}
+  m_LocalPosition: {x: 0, y: 1.991, z: 0}
+  m_LocalScale: {x: 1, y: 0.58, z: 0.55}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1935,8 +1937,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107773128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.407, y: 2, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.65, z: 0.65}
+  m_LocalPosition: {x: -0.407, y: 1.997, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

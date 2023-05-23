@@ -8,6 +8,8 @@ public class Bandage : MonoBehaviour
     private Vector2 swipeEndPos;
     private int bandageIndex = 0;
     private int amountBandagesApplied = 0;
+    private int direction = 0;
+
     public float minSwipeDistance = 50f;
     public GameObject[] bandage;
     public GameObject[] directionalArrows;
@@ -16,8 +18,8 @@ public class Bandage : MonoBehaviour
     public AudioClip bandageCorrect;
     public AudioClip bandageWrong;
 
-    private bool directionSet = false;
-    private int direction = 0;
+    public bool bandageApplied = false;
+    public bool directionSet = false;
 
     void Start()
     {
@@ -33,38 +35,26 @@ public class Bandage : MonoBehaviour
         appliedBandage.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool StartBandageMiniGame()
     {
-
-    }
-
-    public void StartBandageMiniGame()
-    {
-        if (amountBandagesApplied < 2)
+        if (directionSet)
         {
-            if (directionSet)
+            if (Input.GetMouseButtonDown(0))
             {
-                if (Input.GetMouseButtonDown(0))
-                {
-                    swipeStartPos = Input.mousePosition;
-                }
-
-                if (Input.GetMouseButtonUp(0))
-                {
-                    swipeEndPos = Input.mousePosition;
-                    CheckSwipeGesture();
-                }
+                swipeStartPos = Input.mousePosition;
             }
-            else
+
+            if (Input.GetMouseButtonUp(0))
             {
-                RandomizeDirection();
+                swipeEndPos = Input.mousePosition;
+                CheckSwipeGesture();
             }
         }
         else
         {
-            Debug.Log("Bandages applied!!!!!");
+            RandomizeDirection();
         }
+        return bandageApplied;
     }
 
     private void CheckSwipeGesture()
@@ -121,7 +111,7 @@ public class Bandage : MonoBehaviour
             bandage[2].gameObject.GetComponent<Renderer>().material.color = Color.red;
         }
         directionalArrows[direction].SetActive(false);
-        directionSet = false;
+        bandageApplied = true;
     }
 
     public void CheckDirection(int directionInt)

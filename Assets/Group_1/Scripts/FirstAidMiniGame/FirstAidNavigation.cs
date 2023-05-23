@@ -6,22 +6,13 @@ public class FirstAidNavigation : MonoBehaviour
 {
     public GameObject bandageControls;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool AtStartOfGame { get; private set; } = true;
 
     public void CloseBandageControls()
     {
         bandageControls.SetActive(false);
         Time.timeScale = 1.0f;
+        AtStartOfGame = false;
     }
 
     public void OpenBandageControls()
@@ -30,8 +21,8 @@ public class FirstAidNavigation : MonoBehaviour
         Time.timeScale = 0.0f;
     }
 
-    public void RepeatDialogue()
+    public void GameStarted()
     {
-
+        AtStartOfGame = false;
     }
 }

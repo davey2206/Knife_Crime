@@ -6,7 +6,13 @@ public class FirstAidMiniGameSequence : MonoBehaviour
 {
     public GameObject firstAidNavigation;
     public GameObject dialogue;
-    public int sequenceNumber = 1;
+    public GameObject applyingBandages;
+    private float audioDuration;
+    //public bool sequenceIsActive = false;
+    //public int sequenceNumber = 0;
+
+    public bool SequenceIsActive { get; private set; } = false;
+    public int SequenceNumber { get; private set; }
 
     // 1. Controls
     // 2. Dialogue
@@ -21,32 +27,62 @@ public class FirstAidMiniGameSequence : MonoBehaviour
     void Start()
     {
         firstAidNavigation.GetComponent<FirstAidNavigation>().OpenBandageControls();
-        sequenceNumber++;
+        SequenceNumber++;
     }
 
     // Update is called once per frame
     void Update()
     {
-        switch (sequenceNumber)
+        if (!firstAidNavigation.GetComponent<FirstAidNavigation>().AtStartOfGame && !SequenceIsActive)
         {
-            case 2:
-                
-                break;
-            case 3:
-                break;
-            case 4:
-                break;
-            case 5:
-                break;
-            case 6:
-                break;
-            case 7:
-                break;
-            case 8:
-                Debug.Log("Apply Tourniquet");
-                break;
-            default:
-                break;
+            switch (SequenceNumber)
+            {
+                case 1:
+                    TriggerDialogue();
+                    break;
+                case 2:
+                    if (applyingBandages.GetComponent<Bandage>().StartBandageMiniGame())
+                    {
+                        dialogue.GetComponent<FirstAidDialogue>().NextDialogue();
+                        SequenceNumber++;
+                        applyingBandages.GetComponent<Bandage>().bandageApplied = false;
+                        applyingBandages.GetComponent<Bandage>().directionSet = false;
+                    }
+                    break;
+                case 3:
+                    TriggerDialogue();
+                    break;
+                case 4:
+                    if (applyingBandages.GetComponent<Bandage>().StartBandageMiniGame())
+                        SequenceNumber++;
+                    break;
+                case 5:
+                    dialogue.GetComponent<FirstAidDialogue>().NextDialogue();
+                    TriggerDialogue();
+                    break;
+                case 6:
+                    //Controls Tourniquet
+                    break;
+                case 7:
+                    Debug.Log("Apply Tourniquet");
+                    break;
+                default:
+                    break;
+            }
         }
+    }
+
+    private void TriggerDialogue()
+    {
+        SequenceIsActive = true;
+        audioDuration = dialogue.GetComponent<FirstAidDialogue>().PlayDialogue();
+        StartCoroutine(WaitForAudioToEnd(audioDuration));
+    }
+
+    IEnumerator WaitForAudioToEnd(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        SequenceNumber++;
+        SequenceIsActive = false;
     }
 }
