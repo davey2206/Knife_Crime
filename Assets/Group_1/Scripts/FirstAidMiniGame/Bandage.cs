@@ -36,6 +36,11 @@ public class Bandage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    public void StartBandageMiniGame()
+    {
         if (amountBandagesApplied < 2)
         {
             if (directionSet)
@@ -158,10 +163,5 @@ public class Bandage : MonoBehaviour
         amountBandagesApplied++;
         ResetBandage();
         StopAllCoroutines();
-    }
-
-    public void TESTDELETEME()
-    {
-        Debug.Log("Repeat Dialogue");
     }
 }

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class FirstAidMiniGameSequence : MonoBehaviour
 {
-    public GameObject bandageControls;
+    public GameObject firstAidNavigation;
+    public GameObject dialogue;
+    public int sequenceNumber = 1;
 
     // 1. Controls
     // 2. Dialogue
@@ -18,17 +20,33 @@ public class FirstAidMiniGameSequence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        firstAidNavigation.GetComponent<FirstAidNavigation>().OpenBandageControls();
+        sequenceNumber++;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    public void CloseBandageControls()
-    {
-        bandageControls.SetActive(false);
+        switch (sequenceNumber)
+        {
+            case 2:
+                
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                break;
+            case 7:
+                break;
+            case 8:
+                Debug.Log("Apply Tourniquet");
+                break;
+            default:
+                break;
+        }
     }
 }
