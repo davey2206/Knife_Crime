@@ -17,7 +17,7 @@ public class MovementHoueses : MonoBehaviour
     {
         if (!firstTime)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, 75);
+            transform.position = new Vector3(transform.position.x, transform.position.y, 120);
         }
     }
 
@@ -29,7 +29,7 @@ public class MovementHoueses : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * MoveSpeed.Evaluate(time) * Time.deltaTime);
+        transform.Translate(Vector3.back * MoveSpeed.Evaluate(time) * Time.deltaTime);
 
         if (transform.localPosition.z <= -104)
         {
