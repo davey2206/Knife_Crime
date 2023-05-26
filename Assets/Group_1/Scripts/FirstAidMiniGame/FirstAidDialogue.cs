@@ -19,9 +19,4 @@ public class FirstAidDialogue : MonoBehaviour
     {
         dialogueContinuation++;
     }
-
-    public void RepeatDialogue()
-    {
-        audioSource.PlayOneShot(dialogue[dialogueContinuation]);
-    }
 }
