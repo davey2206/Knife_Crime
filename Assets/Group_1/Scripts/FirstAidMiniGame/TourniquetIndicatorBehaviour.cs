@@ -11,7 +11,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
     [SerializeField] UnityEngine.UI.Image turnIndicator;
     [SerializeField] int spinToWin = 3;
     [SerializeField] int unwindSpeed = 2;
-    float turnIndicatorRadiusTrim = 15f;
+    float turnIndicatorRadiusTrim = 25f;
 
     private RectTransform canvasRect;
     private RectTransform rectTransform;
@@ -94,17 +94,12 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
         moveIndicatorToAngle(90f);
     }
 
-
-
-    // Update is called once per frame
-    void Update()
+    public bool StartTourniquetMiniGame()
     {
         if (playing)
         {
             if (isMouseOverIndicator())
             {
-
-
                 if (Input.GetMouseButtonDown(0))
                 {
                     mouseButtonHeld = true;
@@ -152,7 +147,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
                     }
                     unwind();
                     img.color = Color.grey;
-                    
+
                 }
             }
             else
@@ -170,5 +165,6 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
                 unwind();
             }
         }
+        return playing;
     }
 }
