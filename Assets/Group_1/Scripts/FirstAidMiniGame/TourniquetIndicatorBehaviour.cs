@@ -11,7 +11,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
     [SerializeField] UnityEngine.UI.Image turnIndicator;
     [SerializeField] int spinToWin = 3;
     [SerializeField] int unwindSpeed = 2;
-    float turnIndicatorRadiusTrim = 15f;
+    float turnIndicatorRadiusTrim = 30f;
 
     private RectTransform canvasRect;
     private RectTransform rectTransform;
