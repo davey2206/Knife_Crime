@@ -11,7 +11,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
     [SerializeField] UnityEngine.UI.Image turnIndicator;
     [SerializeField] int spinToWin = 3;
     [SerializeField] int unwindSpeed = 2;
-    float turnIndicatorRadiusTrim = 25f;
+    float turnIndicatorRadiusTrim = 15f;
 
     private RectTransform canvasRect;
     private RectTransform rectTransform;
@@ -43,11 +43,10 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
     private bool isMouseOverIndicator()
     {
         bool isMouseOver = false;
-       
+
         canvasMousePos = Input.mousePosition / canvas.scaleFactor;
         canvasMousePos.x += canvasRect.rect.position.x;
         canvasMousePos.y += canvasRect.rect.position.y;
-
 
         float DistanceFromInd = Mathf.Sqrt(Mathf.Pow(canvasMousePos.x - indicatorPos.x, 2f) + Mathf.Pow(canvasMousePos.y - indicatorPos.y, 2f));
         if (DistanceFromInd < indicatorOuterRadius && DistanceFromInd > indicatorInnerRadius)
@@ -94,7 +93,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
         moveIndicatorToAngle(90f);
     }
 
-    public bool StartTourniquetMiniGame()
+    public bool StartTourniquetMiniGame() 
     {
         if (playing)
         {

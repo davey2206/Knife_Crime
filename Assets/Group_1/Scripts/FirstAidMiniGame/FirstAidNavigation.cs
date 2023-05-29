@@ -7,6 +7,7 @@ public class FirstAidNavigation : MonoBehaviour
     public GameObject bandageControls;
     public GameObject timer;
     public GameObject tourniquetCanvas;
+    public GameObject direction;
 
     public bool AtStartOfGame { get; private set; } = true;
 
@@ -14,7 +15,8 @@ public class FirstAidNavigation : MonoBehaviour
     {
         bandageControls.SetActive(false);
         timer.SetActive(true);
-        //tourniquetCanvas.SetActive(true);
+        tourniquetCanvas.SetActive(true);
+        direction.SetActive(true);
         Time.timeScale = 1.0f;
         AtStartOfGame = false;
     }
@@ -23,7 +25,8 @@ public class FirstAidNavigation : MonoBehaviour
     {
         bandageControls.SetActive(true);
         //timer.SetActive(false);
-        //tourniquetCanvas.SetActive(false);
+        tourniquetCanvas.SetActive(false);
+        direction.SetActive(false);
         Time.timeScale = 0.0f;
     }
 
