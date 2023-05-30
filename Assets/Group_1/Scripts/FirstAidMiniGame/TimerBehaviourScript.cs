@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TimerBehaviourScript : MonoBehaviour
 {
@@ -59,6 +60,8 @@ public class TimerBehaviourScript : MonoBehaviour
             {
                 running = false;
                 Debug.Log("GAME OVER");
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                SceneManager.LoadScene(currentSceneName);
                 //add gameover call here
             }
         }

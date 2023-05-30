@@ -112,7 +112,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
                 {
                     if (!startedTurning)
                     {
-                        img.color = Color.red;
+                        img.color = new Color(0.7f,0.5f,0.5f);
                         startedTurning = true;
                         turnCount = 0;
 
@@ -145,7 +145,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
                         unwinding = true;
                     }
                     unwind();
-                    img.color = Color.grey;
+                    img.color = new Color(0.7f,0.7f,0.7f);
 
                 }
             }
@@ -153,7 +153,7 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
             {
                 mouseButtonHeld = false;
                 startedTurning = false;
-                img.color = Color.white;
+                img.color = Color.gray;
                 moveIndicatorToAngle(Mathf.Floor(lastAngle));
                 if (wasTurningLastFrame == true)
                 {
