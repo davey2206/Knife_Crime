@@ -119,7 +119,7 @@ public class Bandage : MonoBehaviour
         if (direction == directionInt)
         {
             audioSource.PlayOneShot(bandageCorrect);
-            bandage[bandageIndex].SetActive(true);
+            bandage[bandageIndex].SetActive(true); //broken of zo
             bandageIndex++;
         }
         else
@@ -142,6 +142,7 @@ public class Bandage : MonoBehaviour
     public void RandomizeDirection()
     {
         direction = Random.Range(0, 4);
+        //directionalArrows[direction].GetComponent<Material>().color = Color.red;
         directionalArrows[direction].SetActive(true);
         directionSet = true;
     }
