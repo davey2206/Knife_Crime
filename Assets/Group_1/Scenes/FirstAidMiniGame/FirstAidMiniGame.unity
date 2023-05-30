@@ -135,6 +135,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7376563490007541814}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &192431877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4571761173181050431, guid: 859520f912968da478d7465a56fd0bbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 757253323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &360645516 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b86616892fc79fc43a923b61f3419a2a,
@@ -644,9 +650,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Timer
-
-'
+  m_text: 3:00:000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -733,7 +737,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 500, y: 300}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4960958164911273875
 CanvasRenderer:
@@ -3747,6 +3751,7 @@ MonoBehaviour:
   applyingBandages: {fileID: 7376563490524238545}
   applyingTourniquet: {fileID: 2108445846}
   tourniquetScript: {fileID: 4960958165445143257}
+  timerObject: {fileID: 192431877}
 --- !u!114 &7376563490524238550
 MonoBehaviour:
   m_ObjectHideFlags: 0

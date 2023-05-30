@@ -9,6 +9,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
     public GameObject applyingBandages;
     public GameObject applyingTourniquet;
     public GameObject tourniquetScript;
+    public GameObject timerObject;
     private float audioDuration;
 
     public bool SequenceIsActive { get; private set; } = false;
@@ -30,6 +31,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
         SequenceNumber++;
 
         applyingTourniquet.SetActive(false);
+        timerObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -41,6 +43,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
             {
                 case 1:
                     TriggerDialogue();
+                    timerObject.SetActive(true);
                     break;
                 case 2:
                     if (applyingBandages.GetComponent<Bandage>().StartBandageMiniGame())
@@ -66,7 +69,10 @@ public class FirstAidMiniGameSequence : MonoBehaviour
                     //Playing is false in StartTourniquetMiniGame function that's why it's a "!" in the if-statement
                     applyingTourniquet.SetActive(true);
                     if (!tourniquetScript.GetComponent<TourniquetIndicatorBehaviour>().StartTourniquetMiniGame())
+                    {
+                        timerObject.SetActive(false);
                         Debug.Log("Applied Tourniquet!!! GOOD JOB!");
+                    }
                     break;
                 default:
                     break;
