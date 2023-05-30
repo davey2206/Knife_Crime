@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
-public class BirdEvent : MonoBehaviour
+public class BirdEvent : MonoBehaviour, IEventType
 {
-    [SerializeField] EventManager eventManager = default;
     [SerializeField] Vector3 startPos;
     [SerializeField] Vector3 endPos;
     [SerializeField] float speed = 10;
@@ -17,15 +17,6 @@ public class BirdEvent : MonoBehaviour
         startPos = transform.position;
         endPos = transform.position;
         endPos.x += 10;
-    }
-
-    private void OnEnable()
-    {
-        eventManager.birdEvent += BirdActivation;
-    }
-    private void OnDisable()
-    {
-        eventManager.birdEvent -= BirdActivation;
     }
 
     private void Update()
@@ -62,12 +53,11 @@ public class BirdEvent : MonoBehaviour
         reverse = !reverse;
     }
 
-    private void BirdActivation(int value)
+    public void Activation(int index)
     {
-        Debug.Log("the eventNumber for bird is: " + value);
-        if (value == eventNumber)
+        if (index == eventNumber)
         {
             activation = true;
-        }        
+        }
     }
 }

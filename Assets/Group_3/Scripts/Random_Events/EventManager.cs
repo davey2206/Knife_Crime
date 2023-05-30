@@ -2,80 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEditor.Searcher.Searcher.AnalyticsEvent;
 
 public class EventManager : MonoBehaviour
 {
-    public event UnityAction<int> birdEvent;
-    public event UnityAction<int> carEvent;
-    public event UnityAction<int> helicopterEvent;
+    public UnityEvent<IEventType> randomEvent;
 
-    [Header("bird")]
-    [SerializeField] private float minimumBirdActivationTime = 10f;
-    [SerializeField] private float maximumBirdActivationTime = 15f;
-    private float birdTimeLeft;
+    [SerializeField] private List<IEventType> events;
+    [SerializeField] private Transform transformEventsParent;
 
-    [Header("car")]
-    [SerializeField] private float minimumCarActivationTime = 10f;
-    [SerializeField] private float maximumCarActivationTime = 15f;
-    private float carTimeLeft;
-
-    [Header("helicopter")]
-    [SerializeField] private float minimumHelicopterActivationTime = 10f;
-    [SerializeField] private float maximumHelicopterActivationTime = 15f;
-    private float helicopterTimeLeft;
-
-    private void Update()
+    private void Start()
     {
-        CheckBirdActivationTime();
-        CheckCarActivationTime();
-        CheckHelicopterActivationTime();
+        GetChildrenWithInterface();
     }
 
-    private void CheckBirdActivationTime()
+    private void GetChildrenWithInterface()
     {
-        birdTimeLeft -= Time.deltaTime;
-        if (birdTimeLeft <= 0)
+        List<Transform> children = new List<Transform>();
+        List<Transform> temp = new List<Transform>();
+        foreach (Transform transform in transformEventsParent)
         {
-            CallBirdEvent();
-            birdTimeLeft = SetRandomTime(minimumBirdActivationTime, maximumBirdActivationTime);
+            Debug.Log(transform.name);
+            children.Add(transform);
         }
-    }
-
-    private void CheckCarActivationTime()
-    {
-        carTimeLeft -= Time.deltaTime;
-        if (carTimeLeft <= 0)
-        {
-            CallCarEvent();
-            carTimeLeft = SetRandomTime(minimumCarActivationTime, maximumCarActivationTime);
-        }
-    }
-
-    private void CheckHelicopterActivationTime()
-    {
-        helicopterTimeLeft -= Time.deltaTime;
-        if (helicopterTimeLeft <= 0)
-        {
-            CallHelicopterEvent();
-            helicopterTimeLeft = SetRandomTime(minimumHelicopterActivationTime, maximumHelicopterActivationTime);
-        }
-    }
-
-    private float SetRandomTime(float minTime, float maxTime)
-    {
-        return Random.Range(minTime, maxTime);
-    }
-
-    private void CallBirdEvent()
-    {
-        birdEvent?.Invoke(Random.Range(0, 2));
-    }
-    private void CallCarEvent()
-    {
-        carEvent?.Invoke(Random.Range(0, 2));
-    }
-    private void CallHelicopterEvent()
-    {
-        helicopterEvent?.Invoke(Random.Range(0, 2));
     }
 }
