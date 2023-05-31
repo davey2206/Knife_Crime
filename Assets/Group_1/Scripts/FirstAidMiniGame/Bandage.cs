@@ -9,6 +9,7 @@ public class Bandage : MonoBehaviour
     private int bandageIndex = 0;
     private int amountBandagesApplied = 0;
     private int direction = 0;
+    private bool pauseDirection = false;
 
     public float minSwipeDistance = 50f;
     public GameObject[] bandage;
@@ -61,7 +62,7 @@ public class Bandage : MonoBehaviour
     {
         Vector2 swipeDirection = swipeEndPos - swipeStartPos;
 
-        if (swipeDirection.magnitude >= minSwipeDistance)
+        if (swipeDirection.magnitude >= minSwipeDistance && !pauseDirection)
         {
             swipeDirection.Normalize();
 
@@ -119,7 +120,7 @@ public class Bandage : MonoBehaviour
         if (direction == directionInt)
         {
             audioSource.PlayOneShot(bandageCorrect);
-            bandage[bandageIndex].SetActive(true); //broken of zo
+            if(bandageIndex < 3) bandage[bandageIndex].SetActive(true);
             bandageIndex++;
         }
         else
@@ -149,8 +150,10 @@ public class Bandage : MonoBehaviour
 
     IEnumerator CheckBandage()
     {
+        pauseDirection = true;
         directionalArrows[direction].SetActive(false);
         yield return new WaitForSeconds(2);
+        pauseDirection = false;
         amountBandagesApplied++;
         ResetBandage();
         StopAllCoroutines();
