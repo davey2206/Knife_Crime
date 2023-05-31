@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Bandage : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Bandage : MonoBehaviour
     private bool pauseDirection = false;
 
     public float minSwipeDistance = 50f;
+    public float cooldownTime = 1f;
     public GameObject[] bandage;
     public GameObject[] directionalArrows;
     public GameObject appliedBandage;
@@ -120,12 +122,14 @@ public class Bandage : MonoBehaviour
         if (direction == directionInt)
         {
             audioSource.PlayOneShot(bandageCorrect);
-            if(bandageIndex < 3) bandage[bandageIndex].SetActive(true);
+            directionalArrows[direction].GetComponent<RawImage>().color = new Color(0.5f, 0.7f, 0.5f);
+            if (bandageIndex < 3) bandage[bandageIndex].SetActive(true);
             bandageIndex++;
         }
         else
         {
             audioSource.PlayOneShot(bandageWrong);
+            directionalArrows[direction].GetComponent<RawImage>().color = new Color(0.7f, 0.5f, 0.5f);
             Debug.Log("WRONG");
         }
 
@@ -135,15 +139,14 @@ public class Bandage : MonoBehaviour
         }
         else
         {
-            directionalArrows[direction].SetActive(false);
-            directionSet = false;
+            StartCoroutine(Cooldown());
         }
     }
 
     public void RandomizeDirection()
     {
         direction = Random.Range(0, 4);
-        //directionalArrows[direction].GetComponent<Material>().color = Color.red;
+        directionalArrows[direction].GetComponent<RawImage>().color = Color.gray;
         directionalArrows[direction].SetActive(true);
         directionSet = true;
     }
@@ -151,11 +154,21 @@ public class Bandage : MonoBehaviour
     IEnumerator CheckBandage()
     {
         pauseDirection = true;
+        yield return new WaitForSeconds(cooldownTime);
         directionalArrows[direction].SetActive(false);
-        yield return new WaitForSeconds(2);
         pauseDirection = false;
         amountBandagesApplied++;
         ResetBandage();
+        StopAllCoroutines();
+    }
+
+    IEnumerator Cooldown()
+    {
+        pauseDirection = true;
+        yield return new WaitForSeconds(cooldownTime);
+        directionalArrows[direction].SetActive(false);
+        directionSet = false;
+        pauseDirection = false;
         StopAllCoroutines();
     }
 }

@@ -12,6 +12,10 @@ public class TimerBehaviourScript : MonoBehaviour
     [SerializeField] float stressModifier = 0.1f;
     [SerializeField] float stressCap = 0.0f; //keep below 0.1 to be effective
 
+    public AudioSource audioSource;
+    public AudioClip heartbeat;
+    private bool heartbeatEnabled = false;
+
     float time;
     float currentStressMod;
     
@@ -54,6 +58,18 @@ public class TimerBehaviourScript : MonoBehaviour
             time -= (Time.deltaTime + currentStressMod);
 
             if (time < 0) time = 0;
+
+            if (time < 60)
+            {
+                if (!heartbeatEnabled)
+                {
+                    heartbeatEnabled = true;
+                    audioSource.clip = heartbeat;
+                    audioSource.Play();
+                }
+                GameObject.Find("TimerText").GetComponent<TextMeshProUGUI>().color = Color.red;
+            }
+
             timerMesh.text = Mathf.FloorToInt(time / 60).ToString("00") + ":" + (time % 60).ToString("00.000");
         
             if(time==0)

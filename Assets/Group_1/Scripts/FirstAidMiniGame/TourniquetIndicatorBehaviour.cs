@@ -113,7 +113,6 @@ public class TourniquetIndicatorBehaviour : MonoBehaviour
                 {
                     if (!startedTurning)
                     {
-                        //img.color = new Color(0.7f,0.5f,0.5f);
                         img.color = new Color(0.5f, 0.7f, 0.5f);
                         startedTurning = true;
                         turnCount = 0;
