@@ -90,6 +90,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
     IEnumerator WaitForAudioToEnd(float duration)
     {
         yield return new WaitForSeconds(duration);
+        dialogue.GetComponent<FirstAidDialogue>().audioIsPlaying = false;
         SequenceNumber++;
         SequenceIsActive = false;
     }

@@ -169,7 +169,7 @@ PrefabInstance:
     - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
       propertyPath: timerLength
-      value: 120
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 4571761173181050429, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
@@ -1044,6 +1044,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b428750c35b79a843915409dede10db6, type: 3}
   audioSource: {fileID: 7376563488637688279}
   dialogueContinuation: 0
+  audioIsPlaying: 0
 --- !u!4 &7376563488637688277
 Transform:
   m_ObjectHideFlags: 0
@@ -2112,7 +2113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d4c3db8d5dd1d2147b32f7018b19d1bf, type: 3}
+  m_Texture: {fileID: 2800000, guid: ef0f73dade4b5ec46be9d20c8a691fe7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2975,7 +2976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d4c3db8d5dd1d2147b32f7018b19d1bf, type: 3}
+  m_Texture: {fileID: 2800000, guid: ef0f73dade4b5ec46be9d20c8a691fe7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -3224,7 +3225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d4c3db8d5dd1d2147b32f7018b19d1bf, type: 3}
+  m_Texture: {fileID: 2800000, guid: ef0f73dade4b5ec46be9d20c8a691fe7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4047,7 +4048,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d4c3db8d5dd1d2147b32f7018b19d1bf, type: 3}
+  m_Texture: {fileID: 2800000, guid: ef0f73dade4b5ec46be9d20c8a691fe7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
