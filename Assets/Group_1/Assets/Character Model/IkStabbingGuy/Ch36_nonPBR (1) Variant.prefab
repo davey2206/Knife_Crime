@@ -175,7 +175,7 @@ MonoBehaviour:
       m_Item7:
         transform: {fileID: 0}
         weight: 0
-    m_Offset: {x: 0, y: 0, z: 0}
+    m_Offset: {x: 0, y: 0, z: 20}
     m_MinLimit: -180
     m_MaxLimit: 180
     m_AimAxis: 1
@@ -711,7 +711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833890553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.093218796, y: 0.49707186, z: -8.45747}
+  m_LocalPosition: {x: -0.5516, y: 0.5814, z: -8.1302}
   m_LocalScale: {x: 0.10000002, y: 0.1, z: 0.10000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -784,7 +784,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e74d1b0076740948a5262a6cfa9db32,
         type: 3}
       propertyPath: m_Name
-      value: Ch36_nonPBR (1)
+      value: Ch36_nonPBR (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1510652388387417717, guid: 3e74d1b0076740948a5262a6cfa9db32,
         type: 3}
@@ -1207,8 +1207,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8631522229089340636}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4fa3fb4e3769eea40a45e09a07e0c476, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 3e74d1b0076740948a5262a6cfa9db32, type: 3}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   - m_Rig: {fileID: 1255234867}
     m_Active: 1
   - m_Rig: {fileID: 1624467029}
-    m_Active: 1
+    m_Active: 0
   - m_Rig: {fileID: 627809778}
     m_Active: 1
   m_Effectors: []
