@@ -320,7 +320,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -585,8 +585,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 11
+  m_fontSizeBase: 11
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1021,6 +1021,7 @@ MonoBehaviour:
   messageText: {fileID: 820664548}
   backgroundBox: {fileID: 1921872737}
   animator: {fileID: 1921872741}
+  afterDisplayTimer: 6
 --- !u!95 &1921872741
 Animator:
   serializedVersion: 5
@@ -1282,17 +1283,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: Hello, Bram
+    message: Hey man, how was your day today?
   - actorId: 1
-    message: What's up bro?
+    message: It was alright, I guess. Nothing exciting happened, just the usual classes
+      and assignments.
   - actorId: 0
-    message: Nothing much, let's go out sometimes.
-  - actorId: 2
-    message: What's up losers?
+    message: Same here. I'm so ready to just relax at home and not think about school
+      for a while.
+  - actorId: 1
+    message: I'm thinking about maybe checking out that new pizza place in town.
+      Have you heard anything about it?
+  - actorId: 0
+    message: No, I haven't. But it sounds like a good idea. We should definitely
+      check it out sometime.
   actors:
   - name: Thijs
   - name: Bram
-  - name: Luuk
 --- !u!114 &2029182967
 MonoBehaviour:
   m_ObjectHideFlags: 0
