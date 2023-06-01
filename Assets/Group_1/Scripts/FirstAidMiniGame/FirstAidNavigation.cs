@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstAidNavigation : MonoBehaviour
 {
@@ -33,5 +34,16 @@ public class FirstAidNavigation : MonoBehaviour
     public void GameStarted()
     {
         AtStartOfGame = false;
+    }
+
+    public void TryAgain()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);
+    }
+
+    public void ContinueGame()
+    {
+        Debug.Log("Next Scene");
     }
 }

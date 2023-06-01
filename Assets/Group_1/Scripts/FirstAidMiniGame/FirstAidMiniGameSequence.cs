@@ -10,6 +10,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
     public GameObject applyingTourniquet;
     public GameObject tourniquetScript;
     public GameObject timerObject;
+    public GameObject victoryScreen;
     private float audioDuration;
 
     public bool SequenceIsActive { get; private set; } = false;
@@ -32,6 +33,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
 
         applyingTourniquet.SetActive(false);
         timerObject.SetActive(false);
+        victoryScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -71,7 +73,7 @@ public class FirstAidMiniGameSequence : MonoBehaviour
                     if (!tourniquetScript.GetComponent<TourniquetIndicatorBehaviour>().StartTourniquetMiniGame())
                     {
                         timerObject.SetActive(false);
-                        Debug.Log("Applied Tourniquet!!! GOOD JOB!");
+                        victoryScreen.SetActive(true);
                     }
                     break;
                 default:

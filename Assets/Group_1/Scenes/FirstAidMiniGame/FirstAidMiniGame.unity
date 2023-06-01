@@ -543,7 +543,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7376563489336805172}
         m_TargetAssemblyTypeName: FirstAidNavigation, Assembly-CSharp
-        m_MethodName: CloseBandageControls
+        m_MethodName: ContinueGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -677,7 +677,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7376563489336805172}
         m_TargetAssemblyTypeName: FirstAidNavigation, Assembly-CSharp
-        m_MethodName: CloseBandageControls
+        m_MethodName: TryAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -751,8 +751,13 @@ PrefabInstance:
     - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
       propertyPath: timerLength
-      value: 120
+      value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
+        type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1637224624}
     - target: {fileID: 4571761173181050429, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
       propertyPath: m_RootOrder
@@ -1513,7 +1518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1637224625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1878,7 +1883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6156863}
+  m_Color: {r: 0, g: 0.64705884, b: 0, a: 0.6156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5125,6 +5130,7 @@ MonoBehaviour:
   applyingTourniquet: {fileID: 2108445846}
   tourniquetScript: {fileID: 4960958165445143257}
   timerObject: {fileID: 192431877}
+  victoryScreen: {fileID: 1271519141}
 --- !u!114 &7376563490524238550
 MonoBehaviour:
   m_ObjectHideFlags: 0

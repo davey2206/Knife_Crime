@@ -12,6 +12,7 @@ public class TimerBehaviourScript : MonoBehaviour
     [SerializeField] float stressModifier = 0.1f;
     [SerializeField] float stressCap = 0.0f; //keep below 0.1 to be effective
 
+    public GameObject gameOverScreen;
     public AudioSource audioSource;
     public AudioClip heartbeat;
     private bool heartbeatEnabled = false;
@@ -28,6 +29,7 @@ public class TimerBehaviourScript : MonoBehaviour
     public void start()
     {
         running = true;
+        gameOverScreen.SetActive(false);
     }
     public void stop()
     {
@@ -76,8 +78,8 @@ public class TimerBehaviourScript : MonoBehaviour
             {
                 running = false;
                 Debug.Log("GAME OVER");
-                string currentSceneName = SceneManager.GetActiveScene().name;
-                SceneManager.LoadScene(currentSceneName);
+                gameOverScreen.SetActive(true);
+                audioSource.Stop();
                 //add gameover call here
             }
         }
