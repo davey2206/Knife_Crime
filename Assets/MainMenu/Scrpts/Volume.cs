@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Volume : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioMixer audioMixer;
+    public void SetVolume(float volume)
     {
-        
+        audioMixer.SetFloat("Needs to be changed", Mathf.Log10(volume) * 20);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetQuality(int qualityIndex)
     {
-        
+        QualitySettings.SetQualityLevel(qualityIndex);
     }
 }
