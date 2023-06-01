@@ -6,24 +6,64 @@ using static UnityEditor.Searcher.Searcher.AnalyticsEvent;
 
 public class EventManager : MonoBehaviour
 {
-    public UnityEvent<IEventType> randomEvent;
+    public UnityAction<int> birdEvent;
+    public UnityAction<int> carEvent;
+    
+    [Header("Bird")]
+    [SerializeField] private float minBirdActivationTime = 5f;
+    [SerializeField] private float maxBirdActivationTime = 10f;
+    [SerializeField]
+    [Range(0, 2)] private int birdEventAmount;
+    private float birdTimeLeft;
 
-    [SerializeField] private List<IEventType> events;
-    [SerializeField] private Transform transformEventsParent;
+    [Header("Car")]
+    [SerializeField] private float minCarActivationTime = 5f;
+    [SerializeField] private float maxCarActivationTime = 10f;
+    [SerializeField]
+    [Range(0, 2)] private int carEventAmount;
+    private float carTimeLeft;
+
 
     private void Start()
     {
-        GetChildrenWithInterface();
     }
 
-    private void GetChildrenWithInterface()
+    private void Update()
     {
-        List<Transform> children = new List<Transform>();
-        List<Transform> temp = new List<Transform>();
-        foreach (Transform transform in transformEventsParent)
+        CheckBirdRandomEventTime();
+        CheckCarRandomEventTime();
+    }
+
+    private void CheckBirdRandomEventTime()
+    {
+        birdTimeLeft -= Time.deltaTime;
+        if (birdTimeLeft <= 0)
         {
-            Debug.Log(transform.name);
-            children.Add(transform);
+            CallBirdEvent();
+            birdTimeLeft = SetRandomTime(minBirdActivationTime, maxBirdActivationTime);
         }
+    }
+    private void CheckCarRandomEventTime()
+    {
+        carTimeLeft -= Time.deltaTime;
+        if (carTimeLeft <= 0)
+        {
+            CallCarEvent();
+            birdTimeLeft = SetRandomTime(minCarActivationTime, maxCarActivationTime);
+        }
+    }
+
+    private float SetRandomTime(float minTime, float maxTime)
+    {
+        return Random.Range(minTime, maxTime);
+    }
+
+    private void CallBirdEvent()
+    {
+        birdEvent?.Invoke(birdEventAmount);
+    }
+    private void CallCarEvent()
+    {
+        carEvent?.Invoke(carEventAmount);
     }
 }

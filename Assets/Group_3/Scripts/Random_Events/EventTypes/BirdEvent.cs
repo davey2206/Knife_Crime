@@ -1,22 +1,26 @@
+using PathCreation.Examples;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;
 
-public class BirdEvent : MonoBehaviour, IEventType
+public class BirdEvent : MonoBehaviour
 {
+    [SerializeField] EventManager eventManager = default;
+    [SerializeField] PathFollower pathFollower;
     [SerializeField] Vector3 startPos;
     [SerializeField] Vector3 endPos;
     [SerializeField] float speed = 10;
     [SerializeField] [Range(0, 2)] int eventNumber;
     private bool activation = false;
-    private bool reverse = false;
 
-    private void Awake()
+    private void OnEnable()
     {
-        startPos = transform.position;
-        endPos = transform.position;
-        endPos.x += 10;
+        eventManager.birdEvent += Activation;
+    }
+    private void OnDisable()
+    {
+        eventManager.birdEvent -= Activation;
     }
 
     private void Update()
@@ -27,30 +31,8 @@ public class BirdEvent : MonoBehaviour, IEventType
     private void BirdFlies()
     {
         if (!activation) return;        
-        if (!reverse)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, endPos, Time.deltaTime * speed);
-            if (transform.position == endPos)
-            {
-                activation = false; 
-                ChangeDirection();
-            }
-        }
-        else if (reverse)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, startPos, Time.deltaTime * speed);
-            if (transform.position == startPos)
-            {
-                activation = false; 
-                ChangeDirection();
-            }
-        }
         
-    }
-
-    private void ChangeDirection()
-    {
-        reverse = !reverse;
+        
     }
 
     public void Activation(int index)
