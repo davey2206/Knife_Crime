@@ -741,7 +741,7 @@ PrefabInstance:
     - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
       propertyPath: stressCap
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
