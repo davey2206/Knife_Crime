@@ -11,6 +11,7 @@ public class Bandage : MonoBehaviour
     private int amountBandagesApplied = 0;
     private int direction = 0;
     private bool pauseDirection = false;
+    private int randomAppliedWrongClip = 0;
 
     public float minSwipeDistance = 50f;
     public float cooldownTime = 1f;
@@ -19,7 +20,8 @@ public class Bandage : MonoBehaviour
     public GameObject appliedBandage;
     public AudioSource audioSource;
     public AudioClip bandageCorrect;
-    public AudioClip bandageWrong;
+    public AudioClip[] bandageWrong;
+    public GameObject bandageWrongHurtScreen;
 
     public bool bandageApplied = false;
     public bool directionSet = false;
@@ -36,6 +38,7 @@ public class Bandage : MonoBehaviour
         directionalArrows[3].SetActive(false);
 
         appliedBandage.SetActive(false);
+        bandageWrongHurtScreen.SetActive(false);
     }
 
     public bool StartBandageMiniGame()
@@ -121,6 +124,7 @@ public class Bandage : MonoBehaviour
     {
         if (direction == directionInt)
         {
+            audioSource.pitch = Random.Range(0.8f, 1.5f);
             audioSource.PlayOneShot(bandageCorrect);
             directionalArrows[direction].GetComponent<RawImage>().color = new Color(0.5f, 0.7f, 0.5f);
             if (bandageIndex < 3) bandage[bandageIndex].SetActive(true);
@@ -128,8 +132,11 @@ public class Bandage : MonoBehaviour
         }
         else
         {
-            audioSource.PlayOneShot(bandageWrong);
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            randomAppliedWrongClip = Random.Range(0, bandageWrong.Length);
+            audioSource.PlayOneShot(bandageWrong[randomAppliedWrongClip]);
             directionalArrows[direction].GetComponent<RawImage>().color = new Color(0.7f, 0.5f, 0.5f);
+            bandageWrongHurtScreen.SetActive(true);
             Debug.Log("WRONG");
         }
 
@@ -166,6 +173,7 @@ public class Bandage : MonoBehaviour
     {
         pauseDirection = true;
         yield return new WaitForSeconds(cooldownTime);
+        bandageWrongHurtScreen.SetActive(false);
         directionalArrows[direction].SetActive(false);
         directionSet = false;
         pauseDirection = false;

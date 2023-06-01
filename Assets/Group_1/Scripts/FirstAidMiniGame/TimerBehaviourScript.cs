@@ -51,7 +51,7 @@ public class TimerBehaviourScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (running)
         {
@@ -67,10 +67,15 @@ public class TimerBehaviourScript : MonoBehaviour
                 {
                     heartbeatEnabled = true;
                     audioSource.clip = heartbeat;
+                    audioSource.pitch = 1f;
                     audioSource.Play();
                 }
                 GameObject.Find("TimerText").GetComponent<TextMeshProUGUI>().color = Color.red;
             }
+
+            if(time > 20 && time < 40) audioSource.pitch = 1.5f;
+            if(time > 10 && time < 20) audioSource.pitch = 2f;
+            if(time > 0 && time < 10) audioSource.pitch = 3f;
 
             timerMesh.text = Mathf.FloorToInt(time / 60).ToString("00") + ":" + (time % 60).ToString("00.000");
         
