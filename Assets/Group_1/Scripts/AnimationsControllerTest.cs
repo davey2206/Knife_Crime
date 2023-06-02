@@ -37,6 +37,7 @@ public class AnimationsControllerTest : MonoBehaviour
         float weight = 0;
         const float stabApex = 0.5f;
         const float stabReturn = 1f;
+        const int returnSpeedFactor = 8;
 
 
         while(currentTime <= stabApex) //wind up to final stab location
@@ -58,7 +59,7 @@ public class AnimationsControllerTest : MonoBehaviour
         {
             iK.solver.SetEffectorWeights(FullBodyBipedEffector.RightHand,weight,0);
             
-            if(weight > 0) weight -= Time.deltaTime * 10; 
+            if(weight > 0) weight -= Time.deltaTime * returnSpeedFactor; 
             currentTime += Time.deltaTime;
             yield return null;
         }
