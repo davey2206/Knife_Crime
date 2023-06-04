@@ -215,6 +215,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488443148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6872770468512077337, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6872770467523961049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589a466752ede4e41b89a76026ad7ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &696832950
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,9 +238,9 @@ GameObject:
   - component: {fileID: 696832955}
   - component: {fileID: 696832954}
   - component: {fileID: 696832953}
-  - component: {fileID: 696832952}
   - component: {fileID: 696832951}
-  - component: {fileID: 696832956}
+  - component: {fileID: 696832957}
+  - component: {fileID: 696832958}
   m_Layer: 0
   m_Name: testKnife
   m_TagString: knife
@@ -250,27 +262,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   min: 4
   max: 2
---- !u!65 &696832952
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696832950}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &696832953
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -336,7 +327,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!54 &696832956
+--- !u!64 &696832957
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696832950}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &696832958
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -361,7 +374,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &1685110820
 GameObject:
@@ -594,6 +607,101 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6872770467090604528, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467090604528, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467137201283, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467137201283, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467191621299, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467191621299, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467205803644, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467205803644, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467205803645, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467407346411, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467407346411, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467441894531, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467441894531, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467544786903, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467544786903, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770467728494608, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770467728494608, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
+    - target: {fileID: 6872770468013336388, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770468013336388, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
     - target: {fileID: 6872770468512077336, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
         type: 3}
       propertyPath: m_RootOrder
@@ -602,17 +710,17 @@ PrefabInstance:
     - target: {fileID: 6872770468512077336, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.750209
+      value: -3.95
       objectReference: {fileID: 0}
     - target: {fileID: 6872770468512077336, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4064429
+      value: 1.563
       objectReference: {fileID: 0}
     - target: {fileID: 6872770468512077336, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.601835
+      value: 1.767
       objectReference: {fileID: 0}
     - target: {fileID: 6872770468512077336, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
         type: 3}
@@ -654,6 +762,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: DamageTracker
       objectReference: {fileID: 0}
+    - target: {fileID: 6872770469050155321, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: knifeTag
+      value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872770469050155321, guid: 8bc4dfcf63dd32d4a9860bdc348d8d4f,
+        type: 3}
+      propertyPath: damageTracker
+      value: 
+      objectReference: {fileID: 488443148}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - knife
   - Obstacle
+  - enemyKnife
   layers:
   - Default
   - TransparentFX
