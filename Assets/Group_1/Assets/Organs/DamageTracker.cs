@@ -5,22 +5,34 @@ using UnityEngine;
 public class DamageTracker : MonoBehaviour
 {
     [SerializeField] private int hitpoints = 5;
+    [SerializeField] private bool player = false;
+    [SerializeField] private KnifeFightStart UIManager;
+    private int realHitpoints;
 
+    private void OnEnable()
+    {
+        realHitpoints = hitpoints;
+    }
 
     public void DamageUpdate()
     {
-        hitpoints--;
-        if(hitpoints <= 0)
+        realHitpoints--;
+        if(realHitpoints <= 0)
         {
             EndGame();
         }
-        Debug.Log("hit");
     }
 
     private void EndGame()
     {
-        Debug.Log("game ended");
-        // enable ending screen and display result
+        if(player)
+        {
+            UIManager.FightLose();
+        }
+        else
+        {
+            UIManager.FightWin();
+        }
     }
 
 
