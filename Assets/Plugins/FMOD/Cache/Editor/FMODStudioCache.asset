@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -1574885966
     Data4: 244858672
   Banks:
-  - {fileID: 3195372751180598180}
+  - {fileID: -3465295193062065190}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 44349
---- !u!114 &-5738430363690618152
+--- !u!114 &-4919453016150770643
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,14 +39,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Bank A.bank
   m_EditorClassIdentifier: 
-  Path: C:/Users/keano/OneDrive/Documenten/FMOD Studio/Runnergame/Build/Desktop/Bank
-    A.bank
+  Path: Assets/Group_1/FMOD/Runnergame/Build/Desktop/Bank A.bank
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 638215592989180517
+  lastModified: 638215710473346294
   FileSizes:
   - Name: Desktop
     Value: 494
+  Exists: 1
+--- !u!114 &-3465295193062065190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Group_1/FMOD/Runnergame/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638215710473386343
+  FileSizes:
+  - Name: Desktop
+    Value: 575392
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -61,39 +80,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4696983311476762417}
-  - {fileID: -5738430363690618152}
-  - {fileID: 3195372751180598180}
+  - {fileID: 1684874350817252943}
+  - {fileID: -4919453016150770643}
+  - {fileID: -3465295193062065190}
   EditorEvents:
   - {fileID: -5926379063363491973}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 3195372751180598180}
+  - {fileID: -3465295193062065190}
   StringsBanks:
-  - {fileID: 4696983311476762417}
-  cacheTime: 638215592993273808
+  - {fileID: 1684874350817252943}
+  cacheTime: 638215710473396289
   cacheVersion: 131603
---- !u!114 &3195372751180598180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: C:/Users/keano/OneDrive/Documenten/FMOD Studio/Runnergame/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638215592993253847
-  FileSizes:
-  - Name: Desktop
-    Value: 575392
-  Exists: 1
---- !u!114 &4696983311476762417
+--- !u!114 &1684874350817252943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,10 +104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: C:/Users/keano/OneDrive/Documenten/FMOD Studio/Runnergame/Build/Desktop/Master.strings.bank
+  Path: Assets/Group_1/FMOD/Runnergame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638215592993273808
+  lastModified: 638215710473396289
   FileSizes:
   - Name: Desktop
     Value: 822
