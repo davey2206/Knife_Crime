@@ -21,17 +21,20 @@ public class AnimationsControllerTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0) && !isPlaying)
+        if(Input.GetMouseButtonDown(0))
         {
-            animator.Play("Stab");
             StartCoroutine(stab());
-            isPlaying = true;
+            
         }
 
     }
 
     IEnumerator stab()
     {
+        if(isPlaying) { yield break; }
+        isPlaying = true;
+        animator.Play("Stab");
+
         const float length = 2f;
         float currentTime = 0;
         float weight = 0;
