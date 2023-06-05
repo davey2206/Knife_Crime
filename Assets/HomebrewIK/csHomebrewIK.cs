@@ -686,7 +686,7 @@ namespace FischlWorks
         private void OnDrawGizmos()
         {
             // Debug draw function relies on objects that are dynamically located during runtime
-            if (Application.isPlaying == false)
+            if (Application.isPlaying)
             {
                 return;
             }
