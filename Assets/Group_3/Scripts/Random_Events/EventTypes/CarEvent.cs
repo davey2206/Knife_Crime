@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BirdEvent : MonoBehaviour
+public class CarEvent : MonoBehaviour
 {
     [SerializeField] EventManager eventManager = default;
     [SerializeField] PathFollower pathFollower;
@@ -11,28 +11,28 @@ public class BirdEvent : MonoBehaviour
 
     private void OnEnable()
     {
-        eventManager.birdEvent += Activation;
+        eventManager.carEvent += Activation;
     }
     private void OnDisable()
     {
-        eventManager.birdEvent -= Activation;
+        eventManager.carEvent -= Activation;
     }
 
     private void Update()
     {
-        BirdFlies();
+        CarDrives();
     }
 
-    private void BirdFlies()
+    private void CarDrives()
     {
         if (!activation) return;
         pathFollower.ResetDistanceTravelled();
         activation = false;
-        
+
     }
 
     public void Activation()
     {
-            activation = true;        
+        activation = true;
     }
 }
