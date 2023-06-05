@@ -6,8 +6,8 @@ using static UnityEditor.Searcher.Searcher.AnalyticsEvent;
 
 public class EventManager : MonoBehaviour
 {
-    public UnityAction<int> birdEvent;
-    public UnityAction<int> carEvent;
+    public UnityAction birdEvent;
+    public UnityAction carEvent;
     
     [Header("Bird")]
     [SerializeField] private float minBirdActivationTime = 5f;
@@ -60,10 +60,10 @@ public class EventManager : MonoBehaviour
 
     private void CallBirdEvent()
     {
-        birdEvent?.Invoke(birdEventAmount);
+        birdEvent?.Invoke();
     }
     private void CallCarEvent()
     {
-        carEvent?.Invoke(carEventAmount);
+        carEvent?.Invoke();
     }
 }

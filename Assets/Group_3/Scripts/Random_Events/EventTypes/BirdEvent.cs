@@ -8,10 +8,6 @@ public class BirdEvent : MonoBehaviour
 {
     [SerializeField] EventManager eventManager = default;
     [SerializeField] PathFollower pathFollower;
-    [SerializeField] Vector3 startPos;
-    [SerializeField] Vector3 endPos;
-    [SerializeField] float speed = 10;
-    [SerializeField] [Range(0, 2)] int eventNumber;
     private bool activation = false;
 
     private void OnEnable()
@@ -35,11 +31,8 @@ public class BirdEvent : MonoBehaviour
         
     }
 
-    public void Activation(int index)
+    public void Activation()
     {
-        if (index == eventNumber)
-        {
-            activation = true;
-        }
+            activation = true;        
     }
 }
