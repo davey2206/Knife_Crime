@@ -738,6 +738,11 @@ PrefabInstance:
       objectReference: {fileID: 192431880}
     - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
+      propertyPath: bandageGame
+      value: 
+      objectReference: {fileID: 7376563490524238545}
+    - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
+        type: 3}
       propertyPath: timerLength
       value: 180
       objectReference: {fileID: 0}
@@ -746,6 +751,11 @@ PrefabInstance:
       propertyPath: gameOverScreen
       value: 
       objectReference: {fileID: 1637224624}
+    - target: {fileID: 4571761173181050428, guid: 859520f912968da478d7465a56fd0bbc,
+        type: 3}
+      propertyPath: tourniquetGame
+      value: 
+      objectReference: {fileID: 1625920495}
     - target: {fileID: 4571761173181050429, guid: 859520f912968da478d7465a56fd0bbc,
         type: 3}
       propertyPath: m_RootOrder
