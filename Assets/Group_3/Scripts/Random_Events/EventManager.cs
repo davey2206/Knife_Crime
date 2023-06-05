@@ -6,27 +6,18 @@ using static UnityEditor.Searcher.Searcher.AnalyticsEvent;
 
 public class EventManager : MonoBehaviour
 {
-    public UnityAction<int> birdEvent;
-    public UnityAction<int> carEvent;
+    public UnityAction birdEvent;
+    public UnityAction carEvent;
     
     [Header("Bird")]
     [SerializeField] private float minBirdActivationTime = 5f;
     [SerializeField] private float maxBirdActivationTime = 10f;
-    [SerializeField]
-    [Range(0, 2)] private int birdEventAmount;
     private float birdTimeLeft;
 
     [Header("Car")]
     [SerializeField] private float minCarActivationTime = 5f;
     [SerializeField] private float maxCarActivationTime = 10f;
-    [SerializeField]
-    [Range(0, 2)] private int carEventAmount;
     private float carTimeLeft;
-
-
-    private void Start()
-    {
-    }
 
     private void Update()
     {
@@ -37,7 +28,7 @@ public class EventManager : MonoBehaviour
     private void CheckBirdRandomEventTime()
     {
         birdTimeLeft -= Time.deltaTime;
-        if (birdTimeLeft <= 0)
+        if (birdTimeLeft <= 0f)
         {
             CallBirdEvent();
             birdTimeLeft = SetRandomTime(minBirdActivationTime, maxBirdActivationTime);
@@ -46,10 +37,10 @@ public class EventManager : MonoBehaviour
     private void CheckCarRandomEventTime()
     {
         carTimeLeft -= Time.deltaTime;
-        if (carTimeLeft <= 0)
+        if (carTimeLeft <= 0f)
         {
             CallCarEvent();
-            birdTimeLeft = SetRandomTime(minCarActivationTime, maxCarActivationTime);
+            carTimeLeft = SetRandomTime(minCarActivationTime, maxCarActivationTime);
         }
     }
 
@@ -60,10 +51,10 @@ public class EventManager : MonoBehaviour
 
     private void CallBirdEvent()
     {
-        birdEvent?.Invoke(birdEventAmount);
+        birdEvent?.Invoke();
     }
     private void CallCarEvent()
     {
-        carEvent?.Invoke(carEventAmount);
+        carEvent?.Invoke();
     }
 }

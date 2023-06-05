@@ -2,16 +2,11 @@ using PathCreation.Examples;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.Rendering.DebugUI;
 
 public class BirdEvent : MonoBehaviour
 {
     [SerializeField] EventManager eventManager = default;
     [SerializeField] PathFollower pathFollower;
-    [SerializeField] Vector3 startPos;
-    [SerializeField] Vector3 endPos;
-    [SerializeField] float speed = 10;
-    [SerializeField] [Range(0, 2)] int eventNumber;
     private bool activation = false;
 
     private void OnEnable()
@@ -30,16 +25,14 @@ public class BirdEvent : MonoBehaviour
 
     private void BirdFlies()
     {
-        if (!activation) return;        
-        
+        if (!activation) return;
+        pathFollower.ResetDistanceTravelled();
+        activation = false;
         
     }
 
-    public void Activation(int index)
+    public void Activation()
     {
-        if (index == eventNumber)
-        {
-            activation = true;
-        }
+            activation = true;        
     }
 }
