@@ -12,7 +12,17 @@ public class ObstacleSpawner : MonoBehaviour
     void Start()
     {
         StartCoroutine(spawnUnit());
-        StartCoroutine(Timer());
+        time = 0;
+    }
+
+    void Update()
+    {
+        time = time + Time.deltaTime;
+
+        foreach (Transform child in transform)
+        {
+            child.GetComponent<ObstacleMovement>().updateTime(time);
+        }
     }
 
     IEnumerator spawnUnit()
@@ -37,23 +47,10 @@ public class ObstacleSpawner : MonoBehaviour
                 }
 
                 transform.GetChild(rng).gameObject.SetActive(true);
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(0.2f);
             }
 
             yield return new WaitForSeconds(SpawnSpeed.Evaluate(time));
-        }
-    }
-
-    IEnumerator Timer()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(0.1f);
-            time = time + 0.1f;
-            foreach (Transform child in transform)
-            {
-                child.GetComponent<ObstacleMovement>().updateTime(time);
-            }
         }
     }
 }

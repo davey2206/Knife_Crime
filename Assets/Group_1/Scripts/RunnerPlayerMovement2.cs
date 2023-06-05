@@ -5,6 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class RunnerPlayerMovement2 : MonoBehaviour
 {
+    [SerializeField] private AudioSource source;
+    private float sourcePitch;
+
+    void Start()
+    {
+        // Assign a random Pitch value between 0.9 and 1.1 (non-inclusive); Default playback is 1
+        sourcePitch = UnityEngine.Random.Range(0.9f, 1.1f);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -13,6 +22,7 @@ public class RunnerPlayerMovement2 : MonoBehaviour
         {
             if (transform.position.x !< 3.2)
             {
+                PlayWhooshSound();
                 StartCoroutine(Move(true));
             }
         }
@@ -20,10 +30,18 @@ public class RunnerPlayerMovement2 : MonoBehaviour
         {
             if (transform.position.x !> -3.2)
             {
+                PlayWhooshSound();
                 StartCoroutine(Move(false));
             }
 
         }
+    }
+
+    private void PlayWhooshSound()
+    {
+        source.Play();  // Play the whoosh sound
+        sourcePitch = UnityEngine.Random.Range(0.9f, 1.1f); // Assign new random value for Pitch
+        source.pitch = sourcePitch; // Apply it to audio source
     }
 
     private void OnTriggerEnter(Collider other)
