@@ -1625,6 +1625,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261025215}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &266997622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2273231216464997551, guid: 1a89a8cc3b31ef648accc107fabd6f25,
+    type: 3}
+  m_PrefabInstance: {fileID: 813950919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &266997624 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5052447461809338189, guid: 1a89a8cc3b31ef648accc107fabd6f25,
+    type: 3}
+  m_PrefabInstance: {fileID: 813950919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266997622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &266997628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266997622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd645dd41c7312541b895c0cbc7bb921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventManager: {fileID: 1528862216}
+  pathFollower: {fileID: 266997624}
 --- !u!1 &327686575
 GameObject:
   m_ObjectHideFlags: 0
@@ -5109,6 +5141,11 @@ PrefabInstance:
       propertyPath: editorData._bezierPath.points.Array.data[42].z
       value: -41.41366
       objectReference: {fileID: 0}
+    - target: {fileID: 2667729910621514674, guid: 1a89a8cc3b31ef648accc107fabd6f25,
+        type: 3}
+      propertyPath: eventManager
+      value: 
+      objectReference: {fileID: 1528862216}
     - target: {fileID: 2833566014474430727, guid: 1a89a8cc3b31ef648accc107fabd6f25,
         type: 3}
       propertyPath: eventManager
@@ -5225,7 +5262,11 @@ PrefabInstance:
     - {fileID: 4003161347453987651, guid: 1a89a8cc3b31ef648accc107fabd6f25, type: 3}
     - {fileID: 4684255712855336448, guid: 1a89a8cc3b31ef648accc107fabd6f25, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2273231216464997551, guid: 1a89a8cc3b31ef648accc107fabd6f25,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 266997628}
   m_SourcePrefab: {fileID: 100100000, guid: 1a89a8cc3b31ef648accc107fabd6f25, type: 3}
 --- !u!1 &822508577
 GameObject:
@@ -9240,8 +9281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minBirdActivationTime: 10
   maxBirdActivationTime: 10
-  minCarActivationTime: 20
-  maxCarActivationTime: 10
+  minCarActivationTime: 30
+  maxCarActivationTime: 30
 --- !u!4 &1528862217
 Transform:
   m_ObjectHideFlags: 0
