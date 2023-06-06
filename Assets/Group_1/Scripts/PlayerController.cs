@@ -27,5 +27,15 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            StartCoroutine(animationsController.DodgeLeft());
+        }
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            StartCoroutine(animationsController.DodgeRight());
+        }
+
     }
 }

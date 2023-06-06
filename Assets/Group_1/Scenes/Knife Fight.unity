@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1278,6 +1278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 9001873770823728816, guid: 229b00d9929d7794a9323df9510391ff,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 141990129559377963, guid: 229b00d9929d7794a9323df9510391ff, type: 3}
     - {fileID: 3870111712014179590, guid: 229b00d9929d7794a9323df9510391ff, type: 3}
@@ -1656,6 +1661,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2436174025075926774, guid: 229b00d9929d7794a9323df9510391ff,
         type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8029122615989102847, guid: c578a824b1b81ac48921d82b9a82221f,
+        type: 3}
+    - target: {fileID: 2436174025075926774, guid: 229b00d9929d7794a9323df9510391ff,
+        type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -1733,6 +1744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Convex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001873770823728816, guid: 229b00d9929d7794a9323df9510391ff,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
