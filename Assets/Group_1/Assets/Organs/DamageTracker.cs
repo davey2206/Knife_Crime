@@ -9,22 +9,28 @@ public class DamageTracker : MonoBehaviour
     [SerializeField] private KnifeFightStart UIManager;
     private int realHitpoints;
 
-    private void OnEnable()
+    private void Awake()
     {
         realHitpoints = hitpoints;
     }
 
     public void DamageUpdate()
     {
-        realHitpoints--;
-        if(realHitpoints <= 0)
+        hitpoints--;
+        if(hitpoints <= 0)
         {
             EndGame();
         }
     }
 
+    public void ResetHitpoints()
+    {
+        hitpoints = realHitpoints;
+    }
+
     private void EndGame()
     {
+        Debug.Log("game ended");
         if(player)
         {
             UIManager.FightLose();

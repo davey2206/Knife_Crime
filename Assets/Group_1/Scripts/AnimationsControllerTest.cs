@@ -18,18 +18,7 @@ public class AnimationsControllerTest : MonoBehaviour
         iK = GetComponent<FullBodyBipedIK>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            StartCoroutine(stab());
-            
-        }
-
-    }
-
-    IEnumerator stab()
+    public IEnumerator stab()
     {
         if(isPlaying) { yield break; }
         isPlaying = true;

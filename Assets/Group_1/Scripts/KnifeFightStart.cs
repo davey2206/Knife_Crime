@@ -8,27 +8,32 @@ public class KnifeFightStart : MonoBehaviour
     [SerializeField] GameObject fight;
     [SerializeField] GameObject deathUI;
     [SerializeField] GameObject winUI;
+    [SerializeField] GameToggle gameToggle;
 
     public void FightStart()
     {
-        fight.SetActive(true);
+        gameToggle.ToggleGame(true);
         startUI.SetActive(false);
         deathUI.SetActive(false);
     }
 
     public void FightWin()
     {
-        fight.SetActive(false);
+        gameToggle.ToggleGame(false);
         winUI.SetActive(true);
-        // #######################################
-        // put scene swap to next scene here Davey
-        // #######################################
     }
 
     public void FightLose()
     {
-        fight.SetActive(false);
+        gameToggle.ToggleGame(false);
         deathUI.SetActive(true);
+    }
+
+    public void EndFight()
+    {
+        // #######################################
+        // put scene swap to next scene here Davey
+        // #######################################
     }
 
 }
