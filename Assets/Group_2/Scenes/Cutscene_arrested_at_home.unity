@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 358da152b7f70144daf79113a7ea31f7,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -596,6 +597,11 @@ PrefabInstance:
       propertyPath: editorData._bezierPath.points.Array.data[42].z
       value: -41.41366
       objectReference: {fileID: 0}
+    - target: {fileID: 2667729910621514674, guid: 1a89a8cc3b31ef648accc107fabd6f25,
+        type: 3}
+      propertyPath: eventManager
+      value: 
+      objectReference: {fileID: 1754298741}
     - target: {fileID: 2833566014474430727, guid: 1a89a8cc3b31ef648accc107fabd6f25,
         type: 3}
       propertyPath: eventManager
@@ -2234,7 +2240,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447575618}
-  m_LocalRotation: {x: 0.052974746, y: -0.46250886, z: 0.027697675, w: 0.8845972}
+  m_LocalRotation: {x: 0.052974142, y: -0.46252805, z: 0.027698833, w: 0.8845871}
   m_LocalPosition: {x: 25.88105, y: -1.699474, z: -8.703583}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2327,7 +2333,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505309469}
-  m_LocalRotation: {x: 0.1022726, y: 0.21258786, z: -0.022379339, w: 0.9715173}
+  m_LocalRotation: {x: 0.10227247, y: 0.21259326, z: -0.022379907, w: 0.97151613}
   m_LocalPosition: {x: 20.649208, y: -1.3940988, z: -7.082657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2682,7 +2688,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747310769}
-  m_LocalRotation: {x: 0.1022726, y: 0.21258786, z: -0.022379339, w: 0.9715173}
+  m_LocalRotation: {x: 0.10227247, y: 0.21259326, z: -0.022379907, w: 0.97151613}
   m_LocalPosition: {x: 145.37816, y: 1.4353752, z: 72.93092}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

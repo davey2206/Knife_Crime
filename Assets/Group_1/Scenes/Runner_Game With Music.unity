@@ -98,7 +98,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 358da152b7f70144daf79113a7ea31f7,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1452,6 +1453,7 @@ GameObject:
   - component: {fileID: 399158245}
   - component: {fileID: 399158247}
   - component: {fileID: 399158248}
+  - component: {fileID: 399158249}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1727,6 +1729,19 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &399158249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399158239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6c7efcd809df2408a15fd3091e9435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenePath: Assets/Group_2/Scenes/Cutscene_arrested_at_home.unity
 --- !u!1001 &405197757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5116,6 +5131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261995438}
   - component: {fileID: 1261995439}
+  - component: {fileID: 1261995440}
   m_Layer: 0
   m_Name: ObjectPool
   m_TagString: Untagged
@@ -5289,6 +5305,19 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1261995440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261995437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6c7efcd809df2408a15fd3091e9435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenePath: Assets/Group_2/Scenes/Cutscene_arrested_at_home.unity
 --- !u!4 &1293440532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7158250887501375148, guid: fef0c168f9cb42c49b905260aa12bfc1,

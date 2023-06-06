@@ -27,7 +27,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     IEnumerator spawnUnit()
     {
-        while (true)
+        while (time < 120)
         {
             for (int i = 0; i < Random.Range(1, (int)NumberOfSpawns.Evaluate(time)); i++)
             {
@@ -52,5 +52,7 @@ public class ObstacleSpawner : MonoBehaviour
 
             yield return new WaitForSeconds(SpawnSpeed.Evaluate(time));
         }
+
+        GetComponent<SceneChanger>().changeScene();
     }
 }

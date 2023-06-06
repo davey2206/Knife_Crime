@@ -48,7 +48,7 @@ public class RunnerPlayerMovement2 : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            GetComponent<SceneChanger>().changeScene();
         }
     }
 

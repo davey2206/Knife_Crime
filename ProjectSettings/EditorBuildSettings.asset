@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Final_Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Group_3/Scenes/SchoolArea.unity
+    guid: b304ee29ea0d51e478a57d6a1a11f125
+  - enabled: 1
+    path: Assets/Group_3/Scenes/Level2WithAssets 1.unity
+    guid: fbf18116aef370a41ae7096440c693e1
+  - enabled: 1
+    path: Assets/Group_3/Scenes/House_Environment.unity
+    guid: 85132f8885958fd4da225c912db2a0e8
+  - enabled: 1
+    path: Assets/Group_2/Scenes/Cutscene_before1v1.unity
+    guid: e25db32aed815c948b61f42c56ea38c5
+  - enabled: 1
+    path: Assets/Group_2/Scenes/Cutscene_inRunningGame.unity
+    guid: 90cf06d0a270cd0429e9a15c5f3da5f1
+  - enabled: 1
+    path: Assets/Group_2/Scenes/Cutscene_arrested_at_home.unity
+    guid: 608c65e7e0dc09c4aa468d80b99248c9
+  - enabled: 1
+    path: Assets/Group_3/Scenes/First aid game cutscene.unity
+    guid: 56a34b8e22a6d7444b84b8c6eb9927e4
   m_configObjects: {}

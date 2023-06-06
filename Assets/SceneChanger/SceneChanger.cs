@@ -9,6 +9,11 @@ public class SceneChanger : MonoBehaviour
 
     public void changeScene()
     {
-        SceneManager.LoadScene(scenePath);
+        SceneManager.LoadScene(scenePath, LoadSceneMode.Single);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        changeScene();
     }
 }
