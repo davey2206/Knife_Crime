@@ -18,110 +18,10 @@ public class AnimationsControllerTest : MonoBehaviour
         iK = GetComponent<FullBodyBipedIK>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            StartCoroutine(stab());
-            
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            StartCoroutine(DodgeLeft());
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            StartCoroutine(DodgeRight());
-
-        }
-
-    }
-
-    IEnumerator DodgeLeft()
-    {
-        if (isPlaying) { yield break; }
-        isPlaying = true;
-        Vector3 startPos = transform.position;
-        animator.Play("Dodge_Left");
-
-        const float length = 1.4f;
-        float currentTime = 0;
-        float weight = 1f;
-        const float dodgeApex = 0.5f;
-        const int speedFactor = 80;
-
-
-        while (currentTime <= dodgeApex)
-        {
-            transform.position += new Vector3(-1/weight,0,0) / speedFactor;
-
-            weight += currentTime * 2;
-            currentTime += Time.deltaTime;
-            yield return null;
-        }
-
-        Vector3 dodgeReturn = (startPos - transform.position) / (length - currentTime);
-
-        while (currentTime <= length)
-        {
-            transform.position += dodgeReturn * Time.deltaTime;
-            if(transform.position.x > startPos.x) { transform.position = startPos; }
-            currentTime += Time.deltaTime;
-            yield return null;
-        }
-
-        transform.position = startPos + new Vector3(0, 0.01f, 0);
-        isPlaying = false;
-    
-}
-
-    IEnumerator DodgeRight()
-    {
-        if (isPlaying) { yield break; }
-        isPlaying = true;
-        Vector3 startPos = transform.position;
-        animator.Play("Dodge_Right");
-
-        const float length = 1.4f;
-        float currentTime = 0;
-        float weight = 1f;
-        const float dodgeApex = 0.5f;
-        const int speedFactor = 80;
-
-
-        while (currentTime <= dodgeApex)
-        {
-            transform.position += new Vector3(1 / weight, 0, 0) /speedFactor;
-
-            weight += currentTime * 2;
-            currentTime += Time.deltaTime;
-            yield return null;
-        }
-
-        Vector3 dodgeReturn = (startPos - transform.position) / (length - currentTime);
-
-        while (currentTime <= length)
-        {
-            transform.position += dodgeReturn * Time.deltaTime;
-            if (transform.position.x < startPos.x) { transform.position = startPos; }
-            currentTime += Time.deltaTime;
-            yield return null;
-        }
-
-        transform.position = startPos + new Vector3(0,0.01f,0);
-        isPlaying = false;
-
-    }
-
-    IEnumerator stab()
+    public IEnumerator stab()
     {
         if(isPlaying) { yield break; }
         isPlaying = true;
-        Vector3 startPos = transform.position;
         animator.Play("Stab");
 
         const float length = 2f;
@@ -156,6 +56,5 @@ public class AnimationsControllerTest : MonoBehaviour
             yield return null;
         }
         isPlaying = false;
-        transform.position = startPos + new Vector3(0, 0.007f, 0);
     }
 }
