@@ -6,6 +6,8 @@ TagManager:
   tags:
   - knife
   - Obstacle
+  - enemyKnife
+  - targetting plane
   layers:
   - Default
   - TransparentFX

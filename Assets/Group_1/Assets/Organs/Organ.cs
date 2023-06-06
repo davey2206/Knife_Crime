@@ -4,40 +4,34 @@ using UnityEngine;
 
 public class Organ : MonoBehaviour
 {
-    [SerializeField] private string organName;
-    [SerializeField] private int hitPoints = 1;
-    [SerializeField] private int hits = 0;
+    [SerializeField] private string knifeTag;
+    [SerializeField] private DamageTracker damageTracker;
 
+    private bool invincible = false;
+    private float invincibilityTime = 1;
 
     // want to replace this with some sort of method to measure the intensity of a hit but atm just detects a hit
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("hit");
-        if(collision.collider.CompareTag("knife"))
+        if(collision.collider.CompareTag(knifeTag) && !invincible)
         {
-            hitPoints--;
-            hits++;
-            if(hitPoints < 0)
-            {
-                hitPoints = 0;
-                hits--;
-            }
-            Debug.Log("knife hit on " + organName + " registered. hitpoints: " + hitPoints + ", hits: " + hits);
+            Debug.Log("hit");
+            damageTracker.DamageUpdate();
+            invincible = true;
         }
     }
 
-    public int GetHitpoints()
+    // invincibility timer to stop a single stab from being registered multiple times
+    private void Update()
     {
-        return hitPoints;
-    }
-
-    public int GetHits()
-    {
-        return hits;
-    }
-
-    public string GetOrganName()
-    {
-        return organName;
+        if (invincible)
+        {
+            invincibilityTime = invincibilityTime - Time.deltaTime;
+            if(invincibilityTime <= 0)
+            {
+                invincible = false;
+                invincibilityTime = 1;
+            }
+        }
     }
 }
