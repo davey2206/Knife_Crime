@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   health: 100
-  movementSpeed: 7
+  movementSpeed: 5
   jumpHeight: 2
   stoppingDistance: 0
