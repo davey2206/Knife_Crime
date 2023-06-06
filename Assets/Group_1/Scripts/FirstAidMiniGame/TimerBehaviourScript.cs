@@ -13,6 +13,8 @@ public class TimerBehaviourScript : MonoBehaviour
     [SerializeField] float stressCap = 0.0f; //keep below 0.1 to be effective
 
     public GameObject gameOverScreen;
+    public GameObject tourniquetGame;
+    public GameObject bandageGame;
     public AudioSource audioSource;
     public AudioClip heartbeat;
     private bool heartbeatEnabled = false;
@@ -84,6 +86,8 @@ public class TimerBehaviourScript : MonoBehaviour
                 running = false;
                 Debug.Log("GAME OVER");
                 gameOverScreen.SetActive(true);
+                tourniquetGame.SetActive(false);
+                bandageGame.SetActive(false);
                 audioSource.Stop();
                 //add gameover call here
             }
