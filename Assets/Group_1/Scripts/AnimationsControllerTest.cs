@@ -41,7 +41,7 @@ public class AnimationsControllerTest : MonoBehaviour
 
     }
 
-    IEnumerator DodgeLeft()
+    public IEnumerator DodgeLeft()
     {
         if (isPlaying) { yield break; }
         isPlaying = true;
@@ -79,7 +79,7 @@ public class AnimationsControllerTest : MonoBehaviour
     
 }
 
-    IEnumerator DodgeRight()
+    public IEnumerator DodgeRight()
     {
         if (isPlaying) { yield break; }
         isPlaying = true;
@@ -117,7 +117,7 @@ public class AnimationsControllerTest : MonoBehaviour
 
     }
 
-    IEnumerator stab()
+    public IEnumerator stab()
     {
         if(isPlaying) { yield break; }
         isPlaying = true;
