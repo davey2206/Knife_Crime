@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class RunnerPlayerMovement2 : MonoBehaviour
 {
     [SerializeField] private AudioSource source;
+    [SerializeField] private SceneChanger sceneChanger;
     private float sourcePitch;
 
     void Start()
@@ -46,9 +47,11 @@ public class RunnerPlayerMovement2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.name, other);
+        Debug.Log(other.tag, other);
         if (other.CompareTag("Obstacle"))
         {
-            GetComponent<SceneChanger>().changeScene();
+          sceneChanger.changeScene();
         }
     }
 

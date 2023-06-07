@@ -6,6 +6,7 @@ public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] AnimationCurve SpawnSpeed;
     [SerializeField] AnimationCurve NumberOfSpawns;
+    [SerializeField] SceneChanger sceneChanger;
     float time;
 
     // Start is called before the first frame update
@@ -53,6 +54,6 @@ public class ObstacleSpawner : MonoBehaviour
             yield return new WaitForSeconds(SpawnSpeed.Evaluate(time));
         }
 
-        GetComponent<SceneChanger>().changeScene();
+        sceneChanger.changeScene();
     }
 }
