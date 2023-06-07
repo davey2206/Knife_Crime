@@ -6,12 +6,17 @@ public class NPC : MonoBehaviour
 {
     [SerializeField]private DialogTrigger trigger;
 
-    private void OnCollisionEnter(Collision collision)
+    private void Start()
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            trigger.StartDialogue();
-        }
+        trigger.StartDialogue();
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        trigger.StartDialogue();
+    //    }
+    //}
 
 }
