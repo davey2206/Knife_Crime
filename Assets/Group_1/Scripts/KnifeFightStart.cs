@@ -9,6 +9,7 @@ public class KnifeFightStart : MonoBehaviour
     [SerializeField] GameObject deathUI;
     [SerializeField] GameObject winUI;
     [SerializeField] GameToggle gameToggle;
+    [SerializeField] SceneChanger sceneChanger;
 
     public void FightStart()
     {
@@ -31,9 +32,7 @@ public class KnifeFightStart : MonoBehaviour
 
     public void EndFight()
     {
-        // #######################################
-        // put scene swap to next scene here Davey
-        // #######################################
+        sceneChanger.changeScene();
     }
 
 }
