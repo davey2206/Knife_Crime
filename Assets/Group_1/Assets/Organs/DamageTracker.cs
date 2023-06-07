@@ -7,20 +7,42 @@ public class DamageTracker : MonoBehaviour
     [SerializeField] private int hitpoints = 5;
     [SerializeField] private bool player = false;
     [SerializeField] private KnifeFightStart UIManager;
+
     private int realHitpoints;
+
+    private bool invincible = false;
+    private float invincibilityTime = 1;
 
     private void Awake()
     {
         realHitpoints = hitpoints;
     }
 
-    public void DamageUpdate()
+    private void Update()
     {
-        hitpoints--;
-        if(hitpoints <= 0)
+        if (invincible)
         {
-            EndGame();
+            invincibilityTime = invincibilityTime - Time.deltaTime;
+            if (invincibilityTime <= 0)
+            {
+                invincible = false;
+                invincibilityTime = 1;
+            }
         }
+    }
+
+    public void DamageUpdate(int damageValue)
+    {
+        if(!invincible)
+        {
+            invincible = true;
+            hitpoints -= damageValue;
+            if (hitpoints <= 0)
+            {
+                EndGame();
+            }
+        }
+        
     }
 
     public void ResetHitpoints()

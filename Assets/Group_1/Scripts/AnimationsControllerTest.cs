@@ -20,8 +20,11 @@ public class AnimationsControllerTest : MonoBehaviour
 
     public IEnumerator stab()
     {
-        if(isPlaying) { yield break; }
+        if (isPlaying) { yield break; }
         isPlaying = true;
+        Vector3 startPos = transform.position;
+        Quaternion startRotation = transform.rotation;
+        animator.applyRootMotion = true;
         animator.Play("Stab");
 
         const float length = 2f;
@@ -32,29 +35,109 @@ public class AnimationsControllerTest : MonoBehaviour
         const int returnSpeedFactor = 8;
 
 
-        while(currentTime <= stabApex) //wind up to final stab location
+        while (currentTime <= stabApex) //wind up to final stab location
         {
-            iK.solver.SetEffectorWeights(FullBodyBipedEffector.RightHand,weight,0);
+            iK.solver.SetEffectorWeights(FullBodyBipedEffector.RightHand, weight, 0);
 
             weight = currentTime * 2;
             currentTime += Time.deltaTime;
             yield return null;
         }
 
-        while(currentTime <= stabReturn)
+        while (currentTime <= stabReturn)
         {
             currentTime += Time.deltaTime;
             yield return null;
         }
 
-        while(currentTime <= length)
+        while (currentTime <= length)
         {
-            iK.solver.SetEffectorWeights(FullBodyBipedEffector.RightHand,weight,0);
-            
-            if(weight > 0) weight -= Time.deltaTime * returnSpeedFactor; 
+            iK.solver.SetEffectorWeights(FullBodyBipedEffector.RightHand, weight, 0);
+
+            if (weight > 0) weight -= Time.deltaTime * returnSpeedFactor;
             currentTime += Time.deltaTime;
             yield return null;
         }
         isPlaying = false;
+        animator.applyRootMotion = false;
+        transform.position = startPos;
+        transform.rotation = startRotation;
     }
+
+    public IEnumerator DodgeLeft()
+    {
+        if (isPlaying) { yield break; }
+        isPlaying = true;
+        Vector3 startPos = transform.position;
+        animator.Play("Dodge_Left");
+
+        const float length = 1.4f;
+        float currentTime = 0;
+        float weight = 1f;
+        const float dodgeApex = 0.5f;
+        const int speedFactor = 80;
+
+
+        while (currentTime <= dodgeApex)
+        {
+            transform.position += new Vector3(-1 / weight, 0, 0) / speedFactor;
+
+            weight += currentTime * 2;
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+
+        Vector3 dodgeReturn = (startPos - transform.position) / (length - currentTime);
+
+        while (currentTime <= length)
+        {
+            transform.position += dodgeReturn * Time.deltaTime;
+            if (transform.position.x > startPos.x) { transform.position = startPos; }
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = startPos;
+        isPlaying = false;
+
+    }
+
+    public IEnumerator DodgeRight()
+    {
+        if (isPlaying) { yield break; }
+        isPlaying = true;
+        Vector3 startPos = transform.position;
+        animator.Play("Dodge_Right");
+
+        const float length = 1.4f;
+        float currentTime = 0;
+        float weight = 1f;
+        const float dodgeApex = 0.5f;
+        const int speedFactor = 80;
+
+
+        while (currentTime <= dodgeApex)
+        {
+            transform.position += new Vector3(1 / weight, 0, 0) / speedFactor;
+
+            weight += currentTime * 2;
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+
+        Vector3 dodgeReturn = (startPos - transform.position) / (length - currentTime);
+
+        while (currentTime <= length)
+        {
+            transform.position += dodgeReturn * Time.deltaTime;
+            if (transform.position.x < startPos.x) { transform.position = startPos; }
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = startPos;
+        isPlaying = false;
+
+    }
+
 }

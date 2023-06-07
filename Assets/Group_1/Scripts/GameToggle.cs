@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class GameToggle : MonoBehaviour
 {
-    [SerializeField] SkinnedMeshRenderer playerModel;
     [SerializeField] MeshRenderer playerKnife;
-    [SerializeField] SkinnedMeshRenderer enemyModel;
     [SerializeField] MeshRenderer enemyKnife;
 
     [SerializeField] DamageTracker playerDT;
     [SerializeField] DamageTracker enemyDT;
 
     [SerializeField] EnemyController enemyController;
+    [SerializeField] PlayerController playerController;
 
     public void ToggleGame(bool isOn)
     {
         // cursed method dont read
-        playerModel.enabled = isOn;
-        enemyModel.enabled = isOn;
+        foreach(SkinnedMeshRenderer SMR in GetComponentsInChildren<SkinnedMeshRenderer>(true))
+        {
+            SMR.enabled = isOn;
+        }
 
         playerKnife.enabled = isOn;
         enemyKnife.enabled = isOn;
@@ -27,6 +28,7 @@ public class GameToggle : MonoBehaviour
         enemyDT.ResetHitpoints();
 
         enemyController.ToggleEnemyAI(isOn);
+        playerController.ignoreNextHit();
     }
 
 
