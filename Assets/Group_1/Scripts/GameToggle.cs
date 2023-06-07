@@ -31,5 +31,9 @@ public class GameToggle : MonoBehaviour
         playerController.ignoreNextHit();
     }
 
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
 
 }

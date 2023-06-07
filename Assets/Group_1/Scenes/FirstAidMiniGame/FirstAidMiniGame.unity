@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &173975773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7004295770848339993, guid: 45b6f30da69f34449b078e520551136b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7004295771044929243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &173975778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173975773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6c7efcd809df2408a15fd3091e9435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenePath: Assets/Group_2/Scenes/Cutscene_inRunningGame.unity
 --- !u!1 &853753159
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,8 +434,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: BandageMiniGamePrefabv3
       objectReference: {fileID: 0}
+    - target: {fileID: 7004295770848339999, guid: 45b6f30da69f34449b078e520551136b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 173975778}
+    - target: {fileID: 7004295770848339999, guid: 45b6f30da69f34449b078e520551136b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: changeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004295770848339999, guid: 45b6f30da69f34449b078e520551136b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7004295770848339993, guid: 45b6f30da69f34449b078e520551136b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 173975778}
   m_SourcePrefab: {fileID: 100100000, guid: 45b6f30da69f34449b078e520551136b, type: 3}

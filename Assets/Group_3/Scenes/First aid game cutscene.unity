@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5971,6 +5971,8 @@ GameObject:
   m_Component:
   - component: {fileID: 572165085}
   - component: {fileID: 572165084}
+  - component: {fileID: 572165087}
+  - component: {fileID: 572165086}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
@@ -6001,6 +6003,8 @@ PlayableDirector:
     value: {fileID: 1905725817}
   - key: {fileID: -5701952204980763039, guid: ccfd260186594484da5a84397f488804, type: 2}
     value: {fileID: 1387986565}
+  - key: {fileID: -1465216008905058749, guid: ccfd260186594484da5a84397f488804, type: 2}
+    value: {fileID: 572165087}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &572165085
@@ -6018,6 +6022,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572165086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572165083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6c7efcd809df2408a15fd3091e9435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenePath: Assets/Group_1/Scenes/FirstAidMiniGame/FirstAidMiniGame.unity
+--- !u!114 &572165087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572165083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: fa2e03a734139fb4ba1d9aeecd5e3f88, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 572165086}
+          m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+          m_MethodName: changeScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &572500304
 PrefabInstance:
   m_ObjectHideFlags: 0
