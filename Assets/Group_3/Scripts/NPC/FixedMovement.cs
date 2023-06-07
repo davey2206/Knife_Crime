@@ -38,12 +38,18 @@ public class FixedMovement : MonoBehaviour
         }
 
         // Set the agent to go to the currently selected destination.
-        agent.destination = waypoints[currentWaypointIndex].position;
+        
 
         // Choose the next point in the array as the destination,
         // cycling to the start if necessary.
-        if(loop) currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+        if (currentWaypointIndex < waypoints.Length)
+        {
+            agent.destination = waypoints[currentWaypointIndex].position;
+
+            if (loop) currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
             else currentWaypointIndex = (currentWaypointIndex + 1);
+        }
+        
 
     }
 }
