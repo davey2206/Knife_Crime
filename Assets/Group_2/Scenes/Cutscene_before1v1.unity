@@ -137,6 +137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -220,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -305,6 +315,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -389,6 +404,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -467,6 +487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -547,10 +572,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 4443729751875142809, guid: 100b7109964e2804ea1d94d617502c5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6112824770945607050, guid: 100b7109964e2804ea1d94d617502c5f,
         type: 3}
       propertyPath: m_Name
       value: SM_truck
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112824770945607050, guid: 100b7109964e2804ea1d94d617502c5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6890169954647916336, guid: 100b7109964e2804ea1d94d617502c5f,
         type: 3}
@@ -622,6 +657,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7736628891877535893, guid: 100b7109964e2804ea1d94d617502c5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309343793305487153, guid: 100b7109964e2804ea1d94d617502c5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548762368307255866, guid: 100b7109964e2804ea1d94d617502c5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -645,6 +695,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -730,6 +785,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -804,6 +864,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -879,6 +944,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -904,7 +989,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &60629470
 Transform:
@@ -944,6 +1029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -1029,6 +1119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -1113,6 +1208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -1192,10 +1292,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2447087679093564432, guid: bfaea9c4e1ac8664794fbb055784d719,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039170856969128757, guid: bfaea9c4e1ac8664794fbb055784d719,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4005018392285387718, guid: bfaea9c4e1ac8664794fbb055784d719,
         type: 3}
       propertyPath: m_Name
       value: SM_Midl_Car_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4005018392285387718, guid: bfaea9c4e1ac8664794fbb055784d719,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4386364949625291132, guid: bfaea9c4e1ac8664794fbb055784d719,
         type: 3}
@@ -1267,6 +1382,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 184.773
       objectReference: {fileID: 0}
+    - target: {fileID: 4697620603468691059, guid: bfaea9c4e1ac8664794fbb055784d719,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359025588042745849, guid: bfaea9c4e1ac8664794fbb055784d719,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1290,6 +1415,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -1440,6 +1570,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1463,6 +1598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -1548,6 +1688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -1632,6 +1777,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -1711,6 +1861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -1789,6 +1944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -1944,6 +2104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1963,6 +2128,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -2038,6 +2208,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2061,6 +2251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -2146,6 +2341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -2226,7 +2426,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &190530074
 Transform:
@@ -2328,6 +2528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2419,6 +2624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -2591,6 +2801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2675,6 +2890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2694,6 +2914,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -2769,6 +2994,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2792,6 +3037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -2877,6 +3127,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -2960,6 +3215,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -3100,6 +3360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3123,6 +3388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -3258,6 +3528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3281,6 +3556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -3426,6 +3706,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3449,6 +3734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -3529,6 +3819,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -3604,6 +3899,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3627,6 +3942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -3712,6 +4032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -3795,6 +4120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -3950,6 +4280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_hight_tree_15
       objectReference: {fileID: 0}
+    - target: {fileID: 2045402561380036903, guid: 88d4ad8cf2f9db846b039e53eb7902c9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3973,6 +4308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -4052,6 +4392,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -4187,6 +4532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4284,6 +4634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -4362,6 +4717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -4502,6 +4862,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4581,6 +4946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4604,6 +4974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -4744,6 +5119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_bush_03
       objectReference: {fileID: 0}
+    - target: {fileID: 640251889640059519, guid: 68b96f9ceff2ce045b4368124ddb6a78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4767,6 +5147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -4851,6 +5236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_ground_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991356521700776314, guid: 564505538b67f4a4e9a559e2308ddcd3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7659946879998067648, guid: 564505538b67f4a4e9a559e2308ddcd3,
         type: 3}
@@ -4942,7 +5332,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &505939361
 Transform:
@@ -4987,6 +5377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -5071,6 +5466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -5216,6 +5616,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5295,6 +5700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5318,6 +5728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -5393,6 +5808,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -5467,6 +5887,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Car_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5547,6 +5987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5625,6 +6070,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_construction toilet_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879636536299912357, guid: 0e3f5fd6d9cd3fe4ca8aa2acc0e29b76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5720,6 +6170,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5743,6 +6198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -5829,7 +6289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &574400306
 Transform:
@@ -5860,6 +6320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -5945,6 +6410,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -6028,6 +6498,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -6168,6 +6643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6191,6 +6671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -6271,6 +6756,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -6346,6 +6836,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6369,6 +6879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -6455,7 +6970,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &663410956
 Transform:
@@ -6494,6 +7009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -6579,6 +7099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -6657,6 +7182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -6741,6 +7271,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_hight_tree_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8389694838333879693, guid: 2c9b95934154d0f4b9906e9d6232aa64,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9162010139180527415, guid: 2c9b95934154d0f4b9906e9d6232aa64,
         type: 3}
@@ -6896,6 +7431,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6919,6 +7459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -7069,6 +7614,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7092,6 +7642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -7171,6 +7726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -7256,6 +7816,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -7334,6 +7899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -7474,6 +8044,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_029
       objectReference: {fileID: 0}
+    - target: {fileID: 7500997292902618332, guid: ca1320bba1013a5428b6a12331c36e56,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7558,6 +8133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_bush_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 640251889640059519, guid: 68b96f9ceff2ce045b4368124ddb6a78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7636,6 +8216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Brige_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7716,6 +8301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7739,6 +8329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -7824,6 +8419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -7902,6 +8502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -8042,6 +8647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_bush_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 640251889640059519, guid: 68b96f9ceff2ce045b4368124ddb6a78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8065,6 +8675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -8205,6 +8820,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8228,6 +8848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -8313,6 +8938,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -8396,6 +9026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -8536,6 +9171,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8559,6 +9199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -8644,6 +9289,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -8722,6 +9372,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -10560,6 +11215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -10645,7 +11305,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &929718419
 Transform:
@@ -10691,6 +11351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -10776,6 +11441,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -10855,6 +11525,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -10930,6 +11605,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10953,6 +11648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -11032,6 +11732,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -11117,6 +11822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -11196,6 +11906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -11274,6 +11989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -11359,6 +12079,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -11439,7 +12164,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &998383572
 Transform:
@@ -11499,6 +12224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -11654,6 +12384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11679,7 +12414,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1015021562
 Transform:
@@ -11768,6 +12503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_construction toilet_01
       objectReference: {fileID: 0}
+    - target: {fileID: 7879636536299912357, guid: 0e3f5fd6d9cd3fe4ca8aa2acc0e29b76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11791,6 +12531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_runway_strip_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584251138294822504, guid: eddfef8066e113a4fa14c06a04f2e379,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2924747227463576786, guid: eddfef8066e113a4fa14c06a04f2e379,
         type: 3}
@@ -12000,7 +12745,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1037660155
 Transform:
@@ -12123,6 +12868,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -12263,6 +13013,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12282,6 +13037,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -12356,6 +13116,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Car_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12436,6 +13216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12459,6 +13244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -12543,6 +13333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -12632,7 +13427,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1103931055
 Transform:
@@ -12733,6 +13528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -12811,6 +13611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -12896,6 +13701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -12979,6 +13789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_pillar_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478375052781579352, guid: 7cfc30fb48a50de42bd18789a9d3affa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4255473950492997346, guid: 7cfc30fb48a50de42bd18789a9d3affa,
         type: 3}
@@ -13073,6 +13888,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -13225,6 +14045,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_construction toilet_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879636536299912357, guid: 0e3f5fd6d9cd3fe4ca8aa2acc0e29b76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13248,6 +14073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -13333,6 +14163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -13411,6 +14246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -13496,6 +14336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -13574,6 +14419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -13658,6 +14508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -13793,6 +14648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13830,7 +14690,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1253044202
 Transform:
@@ -13860,6 +14720,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -13939,6 +14804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -14084,6 +14954,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_bush_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 640251889640059519, guid: 68b96f9ceff2ce045b4368124ddb6a78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14162,6 +15037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Brige_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14254,6 +15134,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14332,6 +15217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Brige_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14417,6 +15307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_bush_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 640251889640059519, guid: 68b96f9ceff2ce045b4368124ddb6a78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14440,6 +15335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -14524,6 +15424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -14664,6 +15569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14687,6 +15597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -14771,6 +15686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -14926,6 +15846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14949,6 +15874,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -15034,6 +15964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -15117,6 +16052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -15252,6 +16192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_03
       objectReference: {fileID: 0}
+    - target: {fileID: 7864356308098583344, guid: ccc8f8b1e0a76a54898f0c807e3a6743,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15275,6 +16220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -15359,6 +16309,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -15445,7 +16400,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1461723734
 Transform:
@@ -15540,6 +16495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15595,6 +16555,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -15680,6 +16645,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -15764,6 +16734,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -15847,7 +16822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1508521092
 Transform:
@@ -15948,6 +16923,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -16031,6 +17011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -16171,6 +17156,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16194,6 +17184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -16329,6 +17324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16354,7 +17354,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1573269772
 Transform:
@@ -16398,6 +17398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -16483,6 +17488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -16562,10 +17572,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 87668023526372587, guid: c63b62d9f49a74e4aac660f1dd20c70a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534273949641726425, guid: c63b62d9f49a74e4aac660f1dd20c70a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350468944748799396, guid: c63b62d9f49a74e4aac660f1dd20c70a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8154622575815438029, guid: c63b62d9f49a74e4aac660f1dd20c70a,
         type: 3}
       propertyPath: m_Name
       value: SM_Midl_Car_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8154622575815438029, guid: c63b62d9f49a74e4aac660f1dd20c70a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8818288500755166327, guid: c63b62d9f49a74e4aac660f1dd20c70a,
         type: 3}
@@ -16637,6 +17667,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8828453420695245055, guid: c63b62d9f49a74e4aac660f1dd20c70a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16662,7 +17697,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1642849925
 Transform:
@@ -16693,6 +17728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -16778,6 +17818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -16856,6 +17901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -16941,6 +17991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -17019,6 +18074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -17104,6 +18164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -17187,6 +18252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -17303,6 +18373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_ground_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129570690447380023, guid: d3ae96c6747648242bdca2e3a4d61bd0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6799112440156214413, guid: d3ae96c6747648242bdca2e3a4d61bd0,
         type: 3}
@@ -17477,6 +18552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17500,6 +18580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_pillar_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478375052781579352, guid: 7cfc30fb48a50de42bd18789a9d3affa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4255473950492997346, guid: 7cfc30fb48a50de42bd18789a9d3affa,
         type: 3}
@@ -17655,6 +18740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17678,6 +18768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -17763,6 +18858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -17847,6 +18947,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -17926,6 +19031,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -18004,6 +19114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -18089,6 +19204,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -18169,7 +19289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1759236825
 Transform:
@@ -18306,6 +19426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -18445,6 +19570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Brige_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18641,6 +19771,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -18721,7 +19856,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1788559530
 Transform:
@@ -18760,6 +19895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_House_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
@@ -18839,6 +19979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -18984,6 +20129,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19009,7 +20159,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1816372194
 Transform:
@@ -19038,6 +20188,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -19117,6 +20272,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_ground_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129570690447380023, guid: d3ae96c6747648242bdca2e3a4d61bd0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6799112440156214413, guid: d3ae96c6747648242bdca2e3a4d61bd0,
         type: 3}
@@ -19267,6 +20427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19290,6 +20455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -19375,6 +20545,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -19453,6 +20628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -19534,7 +20714,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1864091120
 Transform:
@@ -19563,6 +20743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -19652,7 +20837,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1871804092
 Transform:
@@ -19753,6 +20938,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -19836,6 +21026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -19971,6 +21166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Brige_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6375880727332108880, guid: f912aaa1960378d4ab4732ce8110e44f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19994,6 +21194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -20074,6 +21279,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -20149,6 +21359,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20172,6 +21402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -20251,6 +21486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_pillar_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478375052781579352, guid: 7cfc30fb48a50de42bd18789a9d3affa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4255473950492997346, guid: 7cfc30fb48a50de42bd18789a9d3affa,
         type: 3}
@@ -20406,6 +21646,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_track_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1888226743217716634, guid: eb9d33910de679e43bbc93f0b7ef69bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20434,7 +21679,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1948895706
 Transform:
@@ -20535,6 +21780,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -20619,6 +21869,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -20702,6 +21957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -20852,6 +22112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20875,6 +22140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -20959,6 +22229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -21187,6 +22462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21210,6 +22490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -21285,6 +22570,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -21360,6 +22650,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Car_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21379,6 +22689,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -21453,6 +22768,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Car_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21548,6 +22883,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_railway_station_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4555490635156014137, guid: 2a3735e4a0921c24781df4c33fbcd9c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21571,6 +22911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_road_02 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
@@ -21651,6 +22996,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -21729,6 +23079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -21814,6 +23169,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_fence_06_A (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
       propertyPath: m_RootOrder
@@ -21898,6 +23258,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_road_02 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8568561789538940219, guid: 6a46812a72890ef4a9309fd5e1351731,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9052926982337359745, guid: 6a46812a72890ef4a9309fd5e1351731,
         type: 3}
       propertyPath: m_RootOrder
@@ -21976,6 +23341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -22061,6 +23431,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_House_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5134018605173063435, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5509136085527455153, guid: b2f81d16f96cb5848a3b96a53f10c1ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -22139,6 +23514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_fence_06_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140650920868964616, guid: 6ca0e8fc30ef7c9498bab28981e80689,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8913387055160603570, guid: 6ca0e8fc30ef7c9498bab28981e80689,
         type: 3}
@@ -22219,6 +23599,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573269772}
     m_Modifications:
+    - target: {fileID: 2246361611619890333, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2628959341208315008, guid: cd2a58c58ab00764191d8ea3ecba9888,
         type: 3}
       propertyPath: m_RootOrder
@@ -22293,6 +23678,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Car_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400253156827528762, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402645895207771176, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426000519136810220, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274933350897125905, guid: cd2a58c58ab00764191d8ea3ecba9888,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

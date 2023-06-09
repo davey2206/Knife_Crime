@@ -26,6 +26,10 @@ public class Bandage : MonoBehaviour
     public bool bandageApplied = false;
     public bool directionSet = false;
 
+    private void Awake()
+    {
+        Cursor.visible = true;
+    }
     void Start()
     {
         bandage[0].SetActive(false);
