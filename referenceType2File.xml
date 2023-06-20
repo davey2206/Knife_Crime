@@ -1,0 +1,3674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>9c13d4e62f5f7b44bb33162cbf29a9f8</guid>
+    <fileName>Assets/Plugins/FMOD/src/AutomatableSlots.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2176988+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a8ab5f38e7776644297d8b3687c39b49</guid>
+    <fileName>Assets/Plugins/FMOD/src/BankRefAttribute.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2187011+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a28d1e1a42561ed4f8d44293dab99079</guid>
+    <fileName>Assets/Plugins/FMOD/src/EventHandler.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2597028+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1b29a1189268c3b47aa2ec4b96a9e7ef</guid>
+    <fileName>Assets/Plugins/FMOD/src/EventRefAttribute.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2607048+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1b1e4da3fb15e7a45a8f104b7d0fd6d9</guid>
+    <fileName>Assets/Plugins/FMOD/src/EventReference.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2607048+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bd0d0c955caff8940ac1667ee36dd4c9</guid>
+    <fileName>Assets/Plugins/FMOD/src/fmod.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2726999+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>987a467495df9d942b56b1b51381d095</guid>
+    <fileName>Assets/Plugins/FMOD/src/FMODEventPlayable.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.261699+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>133253f56854570409c222a87786b263</guid>
+    <fileName>Assets/Plugins/FMOD/src/FMODEventTrack.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.261699+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4417faacebce0de4fbde25ec23055cf4</guid>
+    <fileName>Assets/Plugins/FMOD/src/FMODRuntimeManagerOnGUIHelper.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.261699+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b7b10c26cf550794183b926ffae615a7</guid>
+    <fileName>Assets/Plugins/FMOD/src/fmod_dsp.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2736995+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6e0992509b0077e479d2da05c8f52eb0</guid>
+    <fileName>Assets/Plugins/FMOD/src/fmod_errors.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2736995+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ae7eb0b6a2bff364b9c1fae52173e74c</guid>
+    <fileName>Assets/Plugins/FMOD/src/fmod_studio.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2747006+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>00e1a9817a5d9844796d7c313b1ab197</guid>
+    <fileName>Assets/Plugins/FMOD/src/ParamRef.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2626991+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7ae6224668d1647429723f89e10d593f</guid>
+    <fileName>Assets/Plugins/FMOD/src/ParamRefAttribute.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2626991+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e7df340ba8041134888b271ea2124fcd</guid>
+    <fileName>Assets/Plugins/FMOD/src/Platform.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2636991+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9587379c972e4a54da1949613f11e1c6</guid>
+    <fileName>Assets/Plugins/FMOD/src/PlatformDefault.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2646989+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6d049eb0281db9c4abd635ba1c79cb7b</guid>
+    <fileName>Assets/Plugins/FMOD/src/PlatformGroup.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2646989+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>93a382382f106584e8f8f62412fee177</guid>
+    <fileName>Assets/Plugins/FMOD/src/PlatformMobileHigh.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2656992+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3abeb1429547a134480f4f2f1efc7e21</guid>
+    <fileName>Assets/Plugins/FMOD/src/PlatformMobileLow.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2656992+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>335f0a4b26fb46942858ea029e030d2a</guid>
+    <fileName>Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2666991+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5e5fb8ce07f0ce84b9d1852869527ea5</guid>
+    <fileName>Assets/Plugins/FMOD/src/RuntimeManager.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2666991+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6e349601408e423499e7b9f75216091d</guid>
+    <fileName>Assets/Plugins/FMOD/src/RuntimeUtils.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2676992+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eef8d824ea7b63742966aaa0e94ac383</guid>
+    <fileName>Assets/Plugins/FMOD/src/Settings.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.268699+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b9468c5f457ace64f8d4df6d642b107f</guid>
+    <fileName>Assets/Plugins/FMOD/src/StudioBankLoader.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.268699+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9a6610d2e704f1648819acc8d7460285</guid>
+    <fileName>Assets/Plugins/FMOD/src/StudioEventEmitter.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2696992+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9b0e04e2572f9a940a47465f6f3c2f00</guid>
+    <fileName>Assets/Plugins/FMOD/src/StudioGlobalParameterTrigger.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2707016+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>86c6556701af9e04380698b89f691b6e</guid>
+    <fileName>Assets/Plugins/FMOD/src/StudioListener.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2707016+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>744a208c85da6d04c861d81b992e4ead</guid>
+    <fileName>Assets/Plugins/FMOD/src/StudioParameterTrigger.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2717014+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2ad7f440b73d8470b959b7c9fb12fcfb</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/DoxygenManualFinalIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8740153+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cd8e6d88a74a14a3195290100d6d4a99</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/AxisTools.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4190857+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Axis</string>
+      <string>RootMotion.AxisTools</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1bdb26a92391749189aae4c5290f8395</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/BipedLimbOrientations.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4200881+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.BipedLimbOrientations</string>
+      <string>RootMotion.BipedLimbOrientations+LimbOrientation</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9b405eec4454c42e3b38bafdae66701a</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/BipedNaming.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4200881+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.BipedNaming</string>
+      <string>RootMotion.BipedNaming+BoneType</string>
+      <string>RootMotion.BipedNaming+BoneSide</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0bb327e2dbd674e81906dcacf4777dbf</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/BipedReferences.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4210898+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.BipedReferences</string>
+      <string>RootMotion.BipedReferences+AutoDetectParams</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>92471cc1733c49042be56cd39b4b6e5e</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/Comments.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3050855+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Comments</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b527358a3a7e442d3b6f2f52806aac84</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/DemoGUIMessage.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.306127+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.DemoGUIMessage</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3a3d07bf34b8e46d69638784c913e10a</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/Hierarchy.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4230871+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Hierarchy</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8445754565080cd469dedb4d0423de77</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/InspectorComment.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3070003+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.InspectorComment</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8d23298dba9a44325997366a9dc5314f</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/Interp.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4240924+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.InterpolationMode</string>
+      <string>RootMotion.Interp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9bbb833ec06b64849830a149f1e7b7e6</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/LayerMaskExtensions.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3076838+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.LayerMaskExtensions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>38a253ce1de8036419e9f6c792893d7e</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/LazySingleton.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.308426+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.LazySingleton`1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>733f93bd37122dd4889c53b5fa05a147</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/Navigator.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3093768+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.Navigator</string>
+      <string>RootMotion.Demos.Navigator+State</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>075dde4e7ae31b440915c8bd52e13197</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/PropertyAttributes.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4260894+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.ShowIfMode</string>
+      <string>RootMotion.ShowIfAttribute</string>
+      <string>RootMotion.ShowRangeIfAttribute</string>
+      <string>RootMotion.ShowLargeHeaderIf</string>
+      <string>RootMotion.LargeHeader</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a5860b124f5b94f3fb04cf4180b7ad67</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/QuaTools.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4270903+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.QuaTools</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e1c8f0459a8434e80acd2f821a30412d</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/Singleton.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3104983+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Singleton`1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>24f5c8273305e4aed8dd09bf3a1a379a</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/SolverManager.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4370888+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.SolverManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ee28b2c81966748468e9371d12c933a2</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/TriggerEventBroadcaster.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4380862+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.TriggerEventBroadcaster</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>28fecd3bd2d91b84bb40145282fa8bf5</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/V2Tools.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3115146+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.V2Tools</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a422d0570aa54fb39eb5ace0e12a4ed</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/V3Tools.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4390873+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.V3Tools</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c1a06ee7b207c4743876a042752f325b</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Scripts/Warning.cs</fileName>
+    <timeStamp>2023-06-20T11:48:47.4400905+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Warning</string>
+      <string>RootMotion.Warning+Logger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>522254b13f10e2b4aae7c4c9fafbdccf</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8599251e67da87744af00f86e55a78d0</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a06b0721dd1e6544db9c3ec6875ce147</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b546c570f45eaaf4883ce4bf4afb310e</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3f909e5c8155d9b4f90c248833c5360e</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a5198bba3378dcc46810e6c4070398d6</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T04:37:41+01:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>49ebe6fea5e4bfc4bb492bba062b2afe</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2196939+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e564c074e96205b49b91ff80126983c5</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/BankRefresher.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.220694+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>40a1ca322d08d704eacd449863718b31</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.220694+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f876942dd549ef444a82ab923e75ccb1</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/BoltIntegration.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2216945+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>438155f6a2d689e45b5cc7701d412b80</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2216945+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9c9773a32ed4a2b429fd42645175c32b</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.222694+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c18180ecb35941f4682ae60107b85b7c</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2236944+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ceb653cd98e289a4e8697a1af55201f2</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2236944+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fecb8ef7f94ca804a8ab72049b86782e</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2246943+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3c9e3e2137498d343a2e31906a12dec2</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EditorSettings.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2246943+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2bb4068641d1f71478f95a9b73533f51</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EditorUtils.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2256943+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5332ad2baabb58844975479e906001c8</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EventBrowser.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2266938+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d32cf7c32a3ed8347bac48ef5ed56d82</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EventCache.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.227694+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1fc38201a5edb994c874a4a61e96053b</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EventManager.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2287003+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>29a86a77bf7568e499243d9b47b7e88e</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2287003+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0b58df65bd3bb6649801b24a7a942ccb</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2296934+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3349615af02d64e4e8d1026e228c4a25</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.233693+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a3d0ed60438564241a4e62b152836893</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2346921+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa325be8441506c4bb1462c8333ccce9</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2306945+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>31e1c5e7d70e58f45ae86764f7c3ec2f</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2327002+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1573bef36bd46e34f8f2b4dad628a461</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/ListView.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2346921+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>255133e2dd4fbd9449ba729ddbb2f77f</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/LogViewer.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2356958+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ea88808aa26cd614db1c5c1dcbb14d4e</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2356958+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>353a9c870c318f74fa5fdcd475129bae</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2376996+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa9a0c70fef01fb43b8eff668bfa0e9c</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/SetupWizard.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2376996+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f7f61e03a350e1e428dba6c562f3d64a</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/StudioBankLoaderEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2386925+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b044fd4ebf2c42468e1f41d5e2b879c</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2396935+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f09ba26caab55e048a2e596ff75b3eab</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2396935+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0a901681b5558f247b4c227fb425c010</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2407012+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>847f8505c25f5cf42adba68a26f2cda6</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2587032+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dc94d213814ef1a42b0ca8ee00dd4728</guid>
+    <fileName>Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2597028+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ab14efce3fefe4f4982f0fa6911d0cd4</guid>
+    <fileName>Assets/Plugins/RootMotion/Baker/Scripts/Baker.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2766995+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Baker</string>
+      <string>RootMotion.Baker+Mode</string>
+      <string>RootMotion.Baker+BakerDelegate</string>
+      <string>RootMotion.Baker+ClipSettings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>27b32efee52144c4e934e6c3272ceb2c</guid>
+    <fileName>Assets/Plugins/RootMotion/Baker/Scripts/GenericBaker.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5610074+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.GenericBaker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>efcc0ec5ed265a340a1412edb9110337</guid>
+    <fileName>Assets/Plugins/RootMotion/Baker/Scripts/HumanoidBaker.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5644128+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.HumanoidBaker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dcf5801ad3ff7fa43b06824f09d82160</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Baker/BakerInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5666379+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8f544a5bc87054e74ac2e415889ba75a</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Baker/GenericBakerInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5672058+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f8139af98945e154885b65eedbb102cc</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Baker/HumanoidBakerInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5710664+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4a8f3f357746148a98faf7ccd416a2a6</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/AimIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5736811+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>079587d3635eb48c3a5c0d57f8c3cc6f</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/AimPoserInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5747084+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>07bc62a41db738b488fc9430a0a20772</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/ArmIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5756989+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f5864bb0a05eb491697063685c4d6cb3</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/BipedIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5768188+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0569aef68e5c24672b37607a948d3c92</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/BipedIKSolversInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5770618+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>90fdc724098474c78a5ae764777a5008</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/CCDIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5782178+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b9903cbc6483347caadff80dc461c23f</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/ConstraintsInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5789962+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4bdb775e141709e40972e0ed29aecc04</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/EditorIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5798061+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>35028d751824a4378ab31047db78a4ac</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/FABRIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5808161+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97f4f303b23be42ddabd838850dd9c03</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/FABRIKRootInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5809915+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa6fa0b5b780d4401b031336dd86cfa4</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/FingerRigInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5820283+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a1af94c10682a46c0849b487ad86dd40</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/FullBodyBipedIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5826151+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>43cffbb650ededd4bbfb46bf19a74782</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/GroundingInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5836589+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f11a75612fdb244758156ae2d26a95ec</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKEffectorInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.584399+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e2d73247f9c4b4190a30f8e4cc054bc5</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKExecutionOrderInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.585424+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>00e26cb6b10c641c49833ea4316e25cf</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5863441+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>13082609a38964d0486119efce14e42c</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverAimInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5873693+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2096c71e8e55def4bafe5d7f1604ea55</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverArmInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.58837+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>47b6cc68611af428d82361a2eb3d8505</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverFABRIKRootInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5892212+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>533c5d8f60bd14648a10c7c1ad3f9ee5</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverFullBodyBipedInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5902304+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9a32242b195b44820b383881d973c731</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverFullBodyInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5913637+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d5806071df7484ff0bfa7330e9adb04e</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverHeuristicInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5923865+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f8fadad0d2804439bad44738bf137eb3</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5929433+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b8601eb42d45b294dba88abac3e27d24</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverLegInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5937584+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>57956e150e00f474b9c03c7155dc43e3</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverLimbInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5946257+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5cf17f5d7f4954636ad6575fd9f9832c</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverLookAtInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5953203+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3474539eeb23c491fbd6a10e0951ce9d</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/IKSolverTrigonometricInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5971234+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>244e0878f45b6442cac28a34942f9ac3</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/InteractionTargetInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5976173+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>873f095e66d4c4a1cad1da5353934f00</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/InteractionTriggerInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5996361+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a1d4a2dfd093628479ab4e1611fab8cf</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/LegIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6000143+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f0d1da4d6345d4ebbb58a7fbdb461e88</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/LimbIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6009327+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>76c03a228cc7d4cfab5b65bf55ca89a0</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/LookAtIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6021712+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c1549de5f5a6641758443bebbd5eb733</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/RotationLimitAngleInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6025434+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9c6dcd6b6b7a74dd6b1ef5428b42217b</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/RotationLimitHingeInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6035683+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>45e20680cc7804d86b30b931badba933</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/RotationLimitInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6048762+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de47701c76e93420cb6fe33b292880b9</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/RotationLimitPolygonalInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.605472+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bcf14365f408140e9b73e2b9bcc0e88f</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/RotationLimitSplineInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6073416+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>98c4f265c1c854d718c42d0308c186d9</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/TrigonometricIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.607841+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6677b87ab01b6d341b8dba26424ac1c9</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/VRIKInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6083687+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b4af31e5f2e82444d80e3b3020689f59</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Demo Scripts/CameraControllerInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.610609+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5880965ffd5754534ac6d4c1fce8bb73</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Scripts/BipedReferencesInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.61107+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c93e61235cb3cad45aec1688c1990eff</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Scripts/CommentsInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.612675+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c18519ac3faf848ca878cd0509c4ce8c</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Scripts/Inspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6128819+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c87de0c0b96012c43b2684edd36e3289</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Scripts/InspectorCommentDrawer.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6138922+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3ac9eb818e19f0442850412e6c19c51d</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Scripts/PropertyDrawers.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.614737+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa9bdb02a53b1450c8f474d42de57950</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Shared Scripts/SerializedContent.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6158253+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6d406d8b892f54ccaa5b0ef4de59944a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/BipedIK/BipedIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8661502+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.BipedIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>552b6be99351d42019784667c84a7d5a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/BipedIK/BipedIKSolvers.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8661502+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.BipedIKSolvers</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7e377232abb249ed8b4ef7d7ae933e7</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Constraints/Constraint.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3326931+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Constraint</string>
+      <string>RootMotion.FinalIK.Constraints</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>071793b8887c44ddda2d9dc3a0525167</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Constraints/ConstraintPosition.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8681487+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.ConstraintPosition</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e2d9a3e673645474bb6716a1c403e3b1</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Constraints/ConstraintPositionOffset.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8691508+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.ConstraintPositionOffset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a47eb259ef1b9403599c08fb1e457fcc</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Constraints/ConstraintRotation.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.869895+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.ConstraintRotation</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>530e73d7a55ff47029c43502e289273f</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Constraints/ConstraintRotationOffset.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8707272+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.ConstraintRotationOffset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>11679c68b0e4448338c1e21138a3596a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Constraints/Constraints.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8715007+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Constraints</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ee545149746b44547897f32030465e57</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Finger Rig/FingerRig.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8794603+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Finger</string>
+      <string>RootMotion.FinalIK.Finger+DOF</string>
+      <string>RootMotion.FinalIK.FingerRig</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20d3b31ccf0b543f5b659a1c3292d5c5</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/Grounder.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3576961+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Grounder</string>
+      <string>RootMotion.FinalIK.Grounder+GrounderDelegate</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>391939450fd8044e3839af08f34c2af8</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/GrounderBipedIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.880471+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.GrounderBipedIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6c72e1df647af4c0098866e944a04b01</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/GrounderFBBIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3586943+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.GrounderFBBIK</string>
+      <string>RootMotion.FinalIK.GrounderFBBIK+SpineEffector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>65ace204533ef4c24ac80f11ef8ee8ea</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/GrounderIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8815139+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.GrounderIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9823e47edf1dd40c29dfe0ba019f33a6</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/GrounderQuadruped.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3596935+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.GrounderQuadruped</string>
+      <string>RootMotion.FinalIK.GrounderQuadruped+Foot</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cc6729d441e4044f482135cdc532367d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/Grounding.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3606928+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Grounding</string>
+      <string>RootMotion.FinalIK.Grounding+Quality</string>
+      <string>RootMotion.FinalIK.Grounding+OnRaycastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+OnCapsuleCastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+OnSphereCastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+Leg</string>
+      <string>RootMotion.FinalIK.Grounding+Pelvis</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0098ae58c812d4f599afc603a2d8b4b0</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/GroundingLeg.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3616925+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Grounding</string>
+      <string>RootMotion.FinalIK.Grounding+Quality</string>
+      <string>RootMotion.FinalIK.Grounding+OnRaycastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+OnCapsuleCastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+OnSphereCastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+Leg</string>
+      <string>RootMotion.FinalIK.Grounding+Pelvis</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f32aae971577b4a689afe07820935737</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Grounder/GroundingPelvis.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3616925+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Grounding</string>
+      <string>RootMotion.FinalIK.Grounding+Quality</string>
+      <string>RootMotion.FinalIK.Grounding+OnRaycastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+OnCapsuleCastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+OnSphereCastDelegate</string>
+      <string>RootMotion.FinalIK.Grounding+Leg</string>
+      <string>RootMotion.FinalIK.Grounding+Pelvis</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5013856973b27429d937d256dc082f2e</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/AimIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3626928+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.AimIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d9643e11c77c0d4fb27fbcf6ff4839c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/ArmIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.882515+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.ArmIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>98b9a1a9e9a934b23a7db351dd9ec69e</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/CCDIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3646924+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.CCDIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>52af154b35b9e48af96507346dc649ba</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/FABRIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3646924+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FABRIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6fb82f19cc3ce412892b525300de1141</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/FABRIKRoot.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3656929+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FABRIKRoot</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a70e525c82ce9413fa4d940ad7fcf1db</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/FullBodyBipedIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3656929+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FullBodyBipedIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e8ad84abaddc346b9a51365d3dc292e7</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/IK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3666922+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>36737232c1e1646399fa0c8cbc087280</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/IKExecutionOrder.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8832938+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKExecutionOrder</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d45baccdcad47264da4758094969d5d5</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/LegIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8844331+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.LegIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4db3c450680fd4c809d5ad90a2f24e5f</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/LimbIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3687025+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.LimbIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>776adaaacdc5c4e8ab0395120a6e972b</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/LookAtIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3687025+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.LookAtIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>76b6217e3524c44358e310a531792c50</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/TrigonometricIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3696998+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.TrigonometricIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bfac4fa329d1f4f23814af71a247c14b</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Components/VRIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3706993+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.VRIK</string>
+      <string>RootMotion.FinalIK.VRIK+References</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9a2b10b17d604bb2a4d1bff880fc61a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/FABRIKChain.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3716991+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FABRIKChain</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e6c4fa4d3ae33fb44b29d48945f7a129</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/FBBIKArmBending.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8847836+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FBBIKArmBending</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ebbd066464934494f896947690872ad4</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/FBBIKHeadEffector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8857106+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FBBIKHeadEffector</string>
+      <string>RootMotion.FinalIK.FBBIKHeadEffector+BendBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d18c3d1b5f0274264811ca0b290c1c26</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/FBIKChain.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3726989+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FBIKChain</string>
+      <string>RootMotion.FinalIK.FBIKChain+ChildConstraint</string>
+      <string>RootMotion.FinalIK.FBIKChain+Smoothing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>89a2409fbbfb040b8b611279d6bba392</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKConstraintBend.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3737+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKConstraintBend</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02c7adf75b099410fa394db3cdbd7137</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKEffector.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3746989+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKEffector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea73ef4abb3e747839d91973dd0bb3cb</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKMapping.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3746989+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKMapping</string>
+      <string>RootMotion.FinalIK.IKMapping+BoneMap</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2b454b4eecba84e17a9a861f36967230</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKMappingBone.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.375699+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKMappingBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ef3f7e989de854a09aaf17ab4f391645</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKMappingLimb.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.375699+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKMappingLimb</string>
+      <string>RootMotion.FinalIK.IKMappingLimb+BoneMapType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d268325743f394a8a8e524836dceecf1</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKMappingSpine.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3766992+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKMappingSpine</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2613038c163cb4eb4b8ca6f6b9021588</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolver.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3776997+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolver</string>
+      <string>RootMotion.FinalIK.IKSolver+Point</string>
+      <string>RootMotion.FinalIK.IKSolver+Bone</string>
+      <string>RootMotion.FinalIK.IKSolver+Node</string>
+      <string>RootMotion.FinalIK.IKSolver+UpdateDelegate</string>
+      <string>RootMotion.FinalIK.IKSolver+IterationDelegate</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4b9d7f152c7074f6ba84fdb7c6ee721c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverAim.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3776997+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverAim</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d3c8b68f5bcd81b41913fb93e0f5526d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverArm.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8867101+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverArm</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6380e07d356e34385a1e05bae6967fcc</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverCCD.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3787009+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverCCD</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ebaef965ad4344c66afa96b93bc53c7a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFABRIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3797006+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverFABRIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d3832891e51da482f8856a7689ca7c1b</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFABRIKRoot.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3806992+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverFABRIKRoot</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a0f2e3f14c5d4b7b8ed722e50626211</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFullBody.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3806992+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverFullBody</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b06331060dc2744f495261b5eccb9ad9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverFullBodyBiped.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3816924+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.FullBodyBipedEffector</string>
+      <string>RootMotion.FinalIK.FullBodyBipedChain</string>
+      <string>RootMotion.FinalIK.IKSolverFullBodyBiped</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0ffa2c48532b04a7388e16278fe595ad</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverHeuristic.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3826997+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverHeuristic</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>833438e3b67258a4b8aec1195ac1284a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverLeg.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8877221+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverLeg</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>579cdedbac97d4a8fa6c00c94404c86c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverLimb.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3836997+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverLimb</string>
+      <string>RootMotion.FinalIK.IKSolverLimb+BendModifier</string>
+      <string>RootMotion.FinalIK.IKSolverLimb+AxisDirection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>94d39c9f4eb4440c3b87777aec05466f</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverLookAt.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3846931+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverLookAt</string>
+      <string>RootMotion.FinalIK.IKSolverLookAt+LookAtBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>23a7ead232727430e926213345415822</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverTrigonometric.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3846931+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverTrigonometric</string>
+      <string>RootMotion.FinalIK.IKSolverTrigonometric+TrigonometricBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bb2326f82d9db4d968a05d743aeea69d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVR.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3856925+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f490a683bef204445a10e96a5f719bad</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRArm.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3867013+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cf16693a882bc4380a0b4cdaa370777e</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRBodyPart.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3877013+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20a3b52b2557ad34794c80cfe364e330</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRFootstep.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3877013+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4efd2428843f841ed90f8096223b612d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRLeg.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3887012+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bbfd367345246d0448c45f0b1566a323</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRLocomotion.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3896995+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff87fd8caf7c02d458e3280b027dfa18</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRLocomotion_Animated.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3896995+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6d7aae105196f6743b27fef9c63a5ec0</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRLocomotion_Procedural.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3907003+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c34f2fc23becf47eaac7e16737cfb2d9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRSpine.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3916991+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>16c601bf2e7a39247856d2c8521cbe4d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/IKSolverVRUtilities.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3916991+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.IKSolverVR</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Arm</string>
+      <string>RootMotion.FinalIK.IKSolverVR+BodyPart</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Footstep</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Leg</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Locomotion</string>
+      <string>RootMotion.FinalIK.IKSolverVR+Spine</string>
+      <string>RootMotion.FinalIK.IKSolverVR+PositionOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+RotationOffset</string>
+      <string>RootMotion.FinalIK.IKSolverVR+VirtualBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e561d2b0d3d2241fd9bc4929a8f64b7f</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/TwistRelaxer.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8887489+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.TwistRelaxer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2b5bf5cae9f30014f83b16a298eb5508</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/IK Solvers/TwistSolver.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8899131+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.TwistSolver</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4046d96b4054144c0b0fe262b112932c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionEffector.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3946993+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.InteractionEffector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>277df98b5c4b44c71bf8c728da72f815</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionLookAt.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3946993+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.InteractionLookAt</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>41f425a4a83914b04af3f1642c000f5d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionObject.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3957+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.InteractionObject</string>
+      <string>RootMotion.FinalIK.InteractionObject+InteractionEvent</string>
+      <string>RootMotion.FinalIK.InteractionObject+Message</string>
+      <string>RootMotion.FinalIK.InteractionObject+AnimatorEvent</string>
+      <string>RootMotion.FinalIK.InteractionObject+WeightCurve</string>
+      <string>RootMotion.FinalIK.InteractionObject+Multiplier</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>537b81dc57e504256a6c74c4bcf6bca9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionSystem.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3966989+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.InteractionSystem</string>
+      <string>RootMotion.FinalIK.InteractionSystem+InteractionDelegate</string>
+      <string>RootMotion.FinalIK.InteractionSystem+InteractionEventDelegate</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4c15924752853459490d29011ba18d1d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionTarget.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3966989+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.InteractionTarget</string>
+      <string>RootMotion.FinalIK.InteractionTarget+RotationMode</string>
+      <string>RootMotion.FinalIK.InteractionTarget+Multiplier</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>271d39b80226e4699829647c96a98758</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/InteractionSystem/InteractionTrigger.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3977011+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.InteractionTrigger</string>
+      <string>RootMotion.FinalIK.InteractionTrigger+CharacterPosition</string>
+      <string>RootMotion.FinalIK.InteractionTrigger+CameraPosition</string>
+      <string>RootMotion.FinalIK.InteractionTrigger+Range</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dd754e329e5ea4f139b08b9271641e12</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Posers/GenericPoser.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8909347+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.GenericPoser</string>
+      <string>RootMotion.FinalIK.GenericPoser+Map</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a98c3501ec8dc43c8a64321bd55c3f63</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Posers/HandPoser.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8914758+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.HandPoser</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5c8218556cda043adb17da42f8151df0</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Posers/Poser.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.3996931+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Poser</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bc258957e94624710928e65beef13de4</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Ragdoll Utility/RagdollUtility.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4006992+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.RagdollUtility</string>
+      <string>RootMotion.FinalIK.RagdollUtility+Rigidbone</string>
+      <string>RootMotion.FinalIK.RagdollUtility+Child</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>197a3a7b95f0e4ac48f171363db95b5b</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimit.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4017006+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.RotationLimit</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>45281828b4c9247558c7c695124d6877</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitAngle.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8925319+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.RotationLimitAngle</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>484718f2c4ab849829491782b508958a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitHinge.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.402699+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.RotationLimitHinge</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dae00b1bdc58d499396776ce508a5078</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitPolygonal.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8930959+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.RotationLimitPolygonal</string>
+      <string>RootMotion.FinalIK.RotationLimitPolygonal+ReachCone</string>
+      <string>RootMotion.FinalIK.RotationLimitPolygonal+LimitPoint</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2ccb80eac3b2b4909a63c818e38ae6b8</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Rotation Limits/RotationLimitSpline.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8942134+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.RotationLimitSpline</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9df7d42e7cb1a54a8eb68e9e9f0dc68</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/AimController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8952224+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.AimController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4267160fb35f54254be87414e585c1a7</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/AimPoser.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4057044+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Poser</string>
+      <string>RootMotion.FinalIK.AimPoser</string>
+      <string>RootMotion.FinalIK.AimPoser+Pose</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e45ea437e115a4fb6be25b8464e6de7a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/Amplifier.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4066992+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Amplifier</string>
+      <string>RootMotion.FinalIK.Amplifier+Body</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8e1cd8d7247544f61bad689b61e39770</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/BodyTilt.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8962225+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.BodyTilt</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>285f2e66b1fe97b4797ef0cb776a5682</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/CCDBendGoal.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8972632+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.CCDBendGoal</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c52e6f5c6ccaca0479ac0f3748e75992</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/EditorIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8976568+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.EditorIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c8598cb8df1b85a4e8e2bd3c92a6ba62</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/EditorIKPose.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8981126+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.EditorIKPose</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6acf54e73e0704cd79c7669317e0cd14</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/HitReaction.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4087+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.HitReaction</string>
+      <string>RootMotion.FinalIK.HitReaction+HitPoint</string>
+      <string>RootMotion.FinalIK.HitReaction+HitPointEffector</string>
+      <string>RootMotion.FinalIK.HitReaction+HitPointBone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>01147feb37a92684a9c362eb43225c67</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/HitReactionVRIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4097013+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.HitReactionVRIK</string>
+      <string>RootMotion.FinalIK.HitReactionVRIK+Offset</string>
+      <string>RootMotion.FinalIK.HitReactionVRIK+PositionOffset</string>
+      <string>RootMotion.FinalIK.HitReactionVRIK+RotationOffset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>22a01f59b6ac94f1b95f51f60eff7eeb</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/Inertia.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4106992+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Inertia</string>
+      <string>RootMotion.FinalIK.Inertia+Body</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8362d7c66e966dd498d59b31392d5148</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/LookAtController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8993761+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.LookAtController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7953027cc122548b0861e027c35af21c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/OffsetModifier.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4117004+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.OffsetModifier</string>
+      <string>RootMotion.FinalIK.OffsetModifier+OffsetLimits</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8e5a797878a3ba546bb923162b51a8e6</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/OffsetModifierVRIK.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4117004+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.OffsetModifierVRIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5405d3fc16a5b4a0bada53e2da651d3a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/OffsetPose.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.412699+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.OffsetPose</string>
+      <string>RootMotion.FinalIK.OffsetPose+EffectorLink</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0095dcee0a4564ca993da4df9dfb070e</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/PenetrationAvoidance.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.9003222+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.PenetrationAvoidance</string>
+      <string>RootMotion.FinalIK.PenetrationAvoidance+Avoider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c613189034e145e5abecee53af1ce0e</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/Recoil.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.9011132+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.Recoil</string>
+      <string>RootMotion.FinalIK.Recoil+RecoilOffset</string>
+      <string>RootMotion.FinalIK.Recoil+Handedness</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a48af8ef2fd147446af3c65186a1cd9e</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/ShoulderRotator.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.9021701+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.ShoulderRotator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a19b811591057074d98d5ab94aaf496a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/VRIKCalibrator.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4156928+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.VRIKCalibrator</string>
+      <string>RootMotion.FinalIK.VRIKCalibrator+Settings</string>
+      <string>RootMotion.FinalIK.VRIKCalibrator+CalibrationData</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1158802e47cf684439400e5c8e03cba9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/VRIKLODController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.9036602+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.VRIKLODController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d0d2eb6d6e88294dbaf39641e718d71</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/Tools/VRIKRootController.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.4167022+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.FinalIK.VRIKRootController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>935c6716e27bd481e97897dd9e1de595</guid>
+    <fileName>Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.2902306+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6794e6301575a445d8588930a0752568</guid>
+    <fileName>Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.2922316+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6b0c5e63920ee4f55b7ec5248525af4b</guid>
+    <fileName>Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.2932386+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97ba6cc2660c0ca498540d254701057a</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/android/src/PlatformAndroid.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.4852305+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b87314b32fbe18943af496e4b47136c6</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/html5/src/PlatformWebGL.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.7274595+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bc1f51bc35d549941904cf062bae93a3</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs</fileName>
+    <timeStamp>2023-06-20T11:48:45.4577722+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>73549a74f689f0849a8271d9e908c514</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/linux/src/PlatformLinux.cs</fileName>
+    <timeStamp>2023-06-20T11:48:45.5067858+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d92d0baf34dae0e4ea032a42bd6107c0</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/mac/src/PlatformMac.cs</fileName>
+    <timeStamp>2023-06-20T11:48:45.5956994+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>17eea195bdfbf014e91ba7620ee491f8</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/tvos/src/PlatformAppleTV.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.0066943+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9660e62d6232af242877f0cc2b90c63d</guid>
+    <fileName>Assets/Plugins/FMOD/platforms/win/src/PlatformWindows.cs</fileName>
+    <timeStamp>2023-06-20T11:48:46.2166989+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2f9e403f0f8255c42b90254abc55f528</guid>
+    <fileName>Assets/Plugins/RootMotion/Baker/Scripts/Helpers/AvatarUtility.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5634131+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.TQ</string>
+      <string>RootMotion.AvatarUtility</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>582052db0a6096149a7b2b75914ef3a6</guid>
+    <fileName>Assets/Plugins/RootMotion/Baker/Scripts/Helpers/BakerUtilities.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5644128+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.BakerUtilities</string>
+      <string>RootMotion.BakerHumanoidQT</string>
+      <string>RootMotion.BakerMuscle</string>
+      <string>RootMotion.BakerTransform</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea198996b9a58624b82f921e56faf4ba</guid>
+    <fileName>Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts/FKOffset.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5596851+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FKOffset</string>
+      <string>RootMotion.Demos.FKOffset+Offset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>054c55a0c5c10dc4fafcfd81aeaaec56</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Baker/Helpers/AnimationUtilityExtended.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5692927+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7edb6cbf0a3b9924d8f631c4c00fd38a</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/Baker/Helpers/SaveClipFolderPanel.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5702934+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>684cc44fa10474fefa6a837d949e7449</guid>
+    <fileName>Assets/Plugins/RootMotion/Editor/FinalIK/_DEMOS/BendGoalInspector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5727687+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>85ef3e8d5c77f405d8ab70a643d6a2f3</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.2948654+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.CameraController</string>
+      <string>RootMotion.CameraController+UpdateMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2727c46fc0dba4e95bbfe87904846e02</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraControllerFPS.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.2958655+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.CameraControllerFPS</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>569c0702757374fa699636b2dc4aa1e2</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationBase.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.2973297+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterAnimationBase</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2209dd700c8b64fc28e9cde6ac3286ba</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationSimple.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.2983372+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterAnimationSimple</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>44963f0d149a94b76a8afd23095c42df</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationThirdPerson.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.2983372+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterAnimationThirdPerson</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2869ec4c764fa4c24b4c2b1654fd316d</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterBase.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.2993364+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterBase</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d8f8cb876d2c742a9a5d9bfa03990ada</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterThirdPerson.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3001716+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterThirdPerson</string>
+      <string>RootMotion.Demos.CharacterThirdPerson+MoveMode</string>
+      <string>RootMotion.Demos.CharacterThirdPerson+AnimState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eb82cec62d812495d878b167e9cdf49c</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/SimpleLocomotion.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3006244+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.SimpleLocomotion</string>
+      <string>RootMotion.Demos.SimpleLocomotion+RotationMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c65b1ab317b6940d29112cc6fa332c1d</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlAI.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3013279+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.UserControlAI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bc555ffe423d44c2f983615b1af3cef4</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlThirdPerson.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3021651+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.UserControlThirdPerson</string>
+      <string>RootMotion.Demos.UserControlThirdPerson+State</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b2b7e342c712748b785bd6f84ed05e68</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/ApplicationQuit.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3039525+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.ApplicationQuit</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1a3904f1ea7c846159c7892541ba85cd</guid>
+    <fileName>Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/SlowMo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:17.3039525+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.SlowMo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>66452eca044e1420e9e9bd2945a6bad7</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/AimBoxing.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.625106+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.AimBoxing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8ccef35d59367884b8f5847c819438b4</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/AimSwing.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6261001+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.AimSwing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>197630ec716e8f54d8547033d33eb8ad</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/SecondHandOnGun.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6266609+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.SecondHandOnGun</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>80dd97a5e7b214f88860e8a63328b1e3</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/SimpleAimingSystem.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6280968+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.SimpleAimingSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e7c5ddaa57a724f7baa46a4196fd27ee</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Aim IK/Scripts/TerrainOffset.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.6292295+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.TerrainOffset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b65d1a9971d544f67b22f5f5a11554f9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Biped IK/Scripts/BipedIKvsAnimatorIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7420584+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.BipedIKvsAnimatorIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e38d8e43dbfd42c2bbdb924c89c44d0</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpider.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7520584+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.MechSpider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dfca8416545ee44e6b71f34d93313b69</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpiderController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7529366+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.MechSpiderController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed6e75890d3ab4d4baef5ecd91784aba</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpiderLeg.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7547276+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.MechSpiderLeg</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e1a69cb78a14c451884988d32da4a529</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/CCD IK/Scripts/MechSpiderParticles.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7555848+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.MechSpiderParticles</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>07341efad24fc425b88a57536e3a568c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/AnimationWarping.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.795675+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.AnimationWarping</string>
+      <string>RootMotion.Demos.AnimationWarping+Warp</string>
+      <string>RootMotion.Demos.AnimationWarping+EffectorMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>898bc8d3a77f74e0b8cd466413a4b20d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/AnimatorController3rdPerson.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7971968+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.AnimatorController3rdPerson</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7cacab300efda4d8c8c72660683917b8</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/AnimatorController3rdPersonIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7976972+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.AnimatorController3rdPersonIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>da28f9c80db074b10842df00a4b50b12</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/CharacterAnimationThirdPersonIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.7981209+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterAnimationThirdPersonIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2e2dfae99419b433289fb54f4c763435</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/CharacterController3rdPerson.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.799993+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.CharacterController3rdPerson</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c96ec8ee850b44337a19453c26b170ed</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/EffectorOffset.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8009871+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.EffectorOffset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5ee6c787adaa94deaa3c39e20323f559</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/ExplosionDemo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8013023+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.ExplosionDemo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed9ee7f6cba9940a183a1b13f38f3c67</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBBIKSettings.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8021437+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FBBIKSettings</string>
+      <string>RootMotion.Demos.FBBIKSettings+Limb</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1a95ef1aaef9e41ef94e5cf5cb1a2491</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBIKBendGoal.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8028011+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FBIKBendGoal</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d2b4d13a962bb4d0e9a622c7f12937d7</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBIKBoxing.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8034179+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FBIKBoxing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ec5a53b0c81f7774aabb2eec99071ea3</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FBIKHandsOnProp.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8044455+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FBIKHandsOnProp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>343587580f6674d5e9346929324ec997</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FPSAiming.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.805353+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FPSAiming</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c2f6cdcc8d33545af81dd246de448e9d</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/FPSCharacter.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8063682+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.FPSCharacter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>36c4cd7e8f3ef4beca08a45c21632be2</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/HitReactionTrigger.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8066643+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.HitReactionTrigger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>19f36a5a29ba54779bbe13c64fd30c69</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/HoldingHands.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8075892+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.HoldingHands</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7e8eb3221b4c45078730c0cad5bde83</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/InteractionC2CDemo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8084511+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.InteractionC2CDemo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a6c1fe7250c0a4474b17dce2b640d1da</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/InteractionDemo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8096116+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.InteractionDemo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8cc0304f5a703416ebff81ad105ddf18</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/InteractionSystemTestGUI.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8111984+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.InteractionSystemTestGUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>124812fe005074e3090d2734c12bd7e9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/KissingRig.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8114322+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.KissingRig</string>
+      <string>RootMotion.Demos.KissingRig+Partner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>85872a1e4a1574355b197e878d6c3d43</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/MotionAbsorb.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8124643+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.MotionAbsorb</string>
+      <string>RootMotion.Demos.MotionAbsorb+Mode</string>
+      <string>RootMotion.Demos.MotionAbsorb+Absorber</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>278ffbe117e4c4edba3d761b55ba7bbb</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/MotionAbsorbCharacter.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8131639+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.MotionAbsorbCharacter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>863f1c6a1b50e40cfa321c4b7bd7b004</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/OffsetEffector.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.813871+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.OffsetEffector</string>
+      <string>RootMotion.Demos.OffsetEffector+EffectorLink</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4e2a7601da0546edbfe147eb9f95826</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PendulumExample.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8145914+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.PendulumExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>15d5147941ecd4e3d9c2d98b880da82b</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PickUp2Handed.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8153069+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.PickUp2Handed</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f830b95040b7b41b48d41e56de363dfe</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PickUpBox.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8161479+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.PickUpBox</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d97cb37f537ae4749a8c8eeb8e918335</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/PickUpSphere.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8168726+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.PickUpSphere</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>73d9168c07539433286485f01c12bf23</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/RagdollUtilityDemo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8178805+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.RagdollUtilityDemo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e57aceae1698147d69f2012c0956d475</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/RecoilTest.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8187107+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.RecoilTest</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>08f23f958fb674118b480dde5c371a3a</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/ResetInteractionObject.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.819639+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.ResetInteractionObject</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bc23dc714ba34439baef55424d701225</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/SoccerDemo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8201375+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.SoccerDemo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>297254b376ff546e7963a77deeba8787</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/TouchWalls.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8220922+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.TouchWalls</string>
+      <string>RootMotion.Demos.TouchWalls+EffectorLink</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c04b635d86be14966ba65dfbaabb0571</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/TransferMotion.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8226251+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.TransferMotion</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>117a949b668c14c44962eebac775f62c</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/TwoHandedProp.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8234412+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.TwoHandedProp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6366c4b037f3423fb0400a4d11d70d9</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/FBBIK/Scripts/UserControlInteractions.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8244508+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.UserControlInteractions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>346478b546ea64b679852b70720f60c2</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Grounder/Scripts/GrounderDemo.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8371722+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.GrounderDemo</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bd8341ed99bc24592957db704e66dfbd</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Grounder/Scripts/PlatformRotator.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8381725+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.PlatformRotator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f0700f2a769ec49a598a1503c9f4ae13</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Limb IK/Scripts/BendGoal.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8425507+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.BendGoal</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>287e53df824774c4dbfc71e796a515f5</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/Rotation Limits/Scripts/Turret.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8463206+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.Turret</string>
+      <string>RootMotion.Demos.Turret+Part</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4306e26e5aa733b4884914d17211dac5</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/VRIK/Scripts/HitReactionVRIKTrigger.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8493981+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.HitReactionVRIKTrigger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>477067c91bad4404790bb7ed5ce59601</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/VRIK/Scripts/VRController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8493981+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.VRController</string>
+      <string>RootMotion.Demos.VRController+InputMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1885d47f6086b6640ac7f1e1d1137642</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/VRIK/Scripts/VRIKCalibrationBasic.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8503193+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.VRIKCalibrationBasic</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4513e09e0185b9749bc91a9d562d73ff</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/VRIK/Scripts/VRIKCalibrationController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8512323+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.VRIKCalibrationController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0a74728623a249645880c78a0ec69030</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/VRIK/Scripts/VRIKPlatform.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8522474+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.VRIKPlatform</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cf54ecb66e03c1c44873ff9fc6922213</guid>
+    <fileName>Assets/Plugins/RootMotion/FinalIK/_DEMOS/VRIK/Scripts/VRIKPlatformController.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.8530839+02:00</timeStamp>
+    <typeFullName>
+      <string>RootMotion.Demos.VRIKPlatformController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c84eeb01012e7f74d873397313a35589</guid>
+    <fileName>Assets/Editor/ScenePickerEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.4022308+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>726325959c0cb064597e2f1bd5eb6b21</guid>
+    <fileName>Assets/HomebrewIK/csHomebrewIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.3752839+02:00</timeStamp>
+    <typeFullName>
+      <string>FischlWorks.csHomebrewIK</string>
+      <string>FischlWorks.ShowIfAttribute</string>
+      <string>FischlWorks.BigHeaderAttribute</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c673db7cc69e119409d80063b180759c</guid>
+    <fileName>Assets/Navigator/Navigator_Script.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0586897+02:00</timeStamp>
+    <typeFullName>
+      <string>Navigator_Script</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>be6c7efcd809df2408a15fd3091e9435</guid>
+    <fileName>Assets/SceneChanger/SceneChanger.cs</fileName>
+    <timeStamp>2023-06-20T11:49:07.6122648+02:00</timeStamp>
+    <typeFullName>
+      <string>SceneChanger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>86146fb031b56474ea2635775a300ed6</guid>
+    <fileName>Assets/Group_1/Scripts/AnimationsControllerTest.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7454877+02:00</timeStamp>
+    <typeFullName>
+      <string>AnimationsControllerTest</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>369e90b19d94e9543a728b4ccea9408e</guid>
+    <fileName>Assets/Group_1/Scripts/CursorFix.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7454877+02:00</timeStamp>
+    <typeFullName>
+      <string>CursorFix</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c03bb38986038934d947b5a8d3a18571</guid>
+    <fileName>Assets/Group_1/Scripts/EnemyController.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4528024+02:00</timeStamp>
+    <typeFullName>
+      <string>EnemyController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1c396f595568f7341ba6ebe53446963d</guid>
+    <fileName>Assets/Group_1/Scripts/GameToggle.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7474927+02:00</timeStamp>
+    <typeFullName>
+      <string>GameToggle</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>899e7c97aab7cd549bb3b7d04d8dd91d</guid>
+    <fileName>Assets/Group_1/Scripts/HousesSpawner.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4618028+02:00</timeStamp>
+    <typeFullName>
+      <string>HousesSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>90ed3c992641cf443a5928f240b18dd2</guid>
+    <fileName>Assets/Group_1/Scripts/KnifeFightStart.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7474927+02:00</timeStamp>
+    <typeFullName>
+      <string>KnifeFightStart</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a416908b6eba8e4479096b1d2784b011</guid>
+    <fileName>Assets/Group_1/Scripts/MovementHoueses.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4638031+02:00</timeStamp>
+    <typeFullName>
+      <string>MovementHoueses</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a1d0a5c5d70fb5a4ba6858405fac6e81</guid>
+    <fileName>Assets/Group_1/Scripts/ObstacleMovement.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4648029+02:00</timeStamp>
+    <typeFullName>
+      <string>ObstacleMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>774c61f7bde21f14bbaaa881068f72f4</guid>
+    <fileName>Assets/Group_1/Scripts/ObstacleSpawner.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7484861+02:00</timeStamp>
+    <typeFullName>
+      <string>ObstacleSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7ef1a1a4ea4eb34d8078c72ba01ddfd</guid>
+    <fileName>Assets/Group_1/Scripts/PlayerController.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7484861+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cbffa7c8158e1a340bb17d5d2e8a4e7f</guid>
+    <fileName>Assets/Group_1/Scripts/RunnerPlayerMovement.cs</fileName>
+    <timeStamp>2023-06-20T12:27:10.4769658+02:00</timeStamp>
+    <typeFullName>
+      <string>RunnerPlayerMovement</string>
+      <string>RunnerPlayerMovement2</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8140b9e83771c6146839c3ba86ce853c</guid>
+    <fileName>Assets/Group_1/Scripts/RunnerPlayerMovement2.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7494855+02:00</timeStamp>
+    <typeFullName>
+      <string>RunnerPlayerMovement2</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4fbe5ed86d7cc1e4389ed331c29a8ae4</guid>
+    <fileName>Assets/Group_1/Scripts/SFXHandlerFootsteps.cs</fileName>
+    <timeStamp>2023-06-20T12:27:10.4780017+02:00</timeStamp>
+    <typeFullName>
+      <string>SFXHandlerFootsteps</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c6a37a8abbfd37149ae20918e9b78766</guid>
+    <fileName>Assets/Group_1/Scripts/SFXHandlerObstacle.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4718051+02:00</timeStamp>
+    <typeFullName>
+      <string>SFXHandlerObstacle</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a62a875ac3ccf844e9dc4575ab7ddffd</guid>
+    <fileName>Assets/Group_3/Input/InputSystem.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.3401654+02:00</timeStamp>
+    <typeFullName>
+      <string>InputSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0929f4b1153de2848aa620d947c28709</guid>
+    <fileName>Assets/HomebrewIK/Editor/editorHomebrewIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4522173+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fcf7219bab7fe46a1ad266029b2fee19</guid>
+    <fileName>Assets/Dont_Edit/TutorialInfo/Scripts/Readme.cs</fileName>
+    <timeStamp>2023-06-20T11:48:20.3175112+02:00</timeStamp>
+    <typeFullName>
+      <string>Readme</string>
+      <string>Readme+Section</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>589a466752ede4e41b89a76026ad7ad7</guid>
+    <fileName>Assets/Group_1/Assets/Organs/DamageTracker.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.4042351+02:00</timeStamp>
+    <typeFullName>
+      <string>DamageTracker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>aee01a871fa9f8449beafaf6135b1164</guid>
+    <fileName>Assets/Group_1/Assets/Organs/Organ.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.4042351+02:00</timeStamp>
+    <typeFullName>
+      <string>Organ</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>559daf3c844a08447a583734dd77bf97</guid>
+    <fileName>Assets/Group_1/Assets/Organs/TestKnife.cs</fileName>
+    <timeStamp>2023-06-20T12:27:09.3348635+02:00</timeStamp>
+    <typeFullName>
+      <string>TestKnife</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>15a2e77035d29074abcf29bb1d54bf57</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/Bandage.cs</fileName>
+    <timeStamp>2023-06-20T11:48:58.7465012+02:00</timeStamp>
+    <typeFullName>
+      <string>Bandage</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>be3bdfef12f3f834ba274a192f4a62ba</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/bandagetestscript.cs</fileName>
+    <timeStamp>2023-06-20T12:27:10.4758353+02:00</timeStamp>
+    <typeFullName>
+      <string>Rope</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a82ce63a5d50c149851b5fd38386fa7</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/FirstAidDialogue.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4558046+02:00</timeStamp>
+    <typeFullName>
+      <string>FirstAidDialogue</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a1263146bbaa79949a99f3a16151317a</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/FirstAidMiniGameSequence.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4568034+02:00</timeStamp>
+    <typeFullName>
+      <string>FirstAidMiniGameSequence</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d143985b517b0974f9e039d697979212</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/FirstAidNavigation.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4578032+02:00</timeStamp>
+    <typeFullName>
+      <string>FirstAidNavigation</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a58496ea9dc93e842b240b3c63e0dce3</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/TimerBehaviourScript.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4588035+02:00</timeStamp>
+    <typeFullName>
+      <string>TimerBehaviourScript</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>07fa7292f16c8dd459931f907e16d49f</guid>
+    <fileName>Assets/Group_1/Scripts/FirstAidMiniGame/TourniquetIndicatorBehaviour.cs</fileName>
+    <timeStamp>2023-06-20T11:48:25.4598099+02:00</timeStamp>
+    <typeFullName>
+      <string>TourniquetIndicatorBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>62c26839ec9fbbc4199b887733edf378</guid>
+    <fileName>Assets/Group_2/Scripts/Gabi/Dialog Manager.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.1852321+02:00</timeStamp>
+    <typeFullName>
+      <string>DialogManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>39dd37fabcc0faf459d4fdaeeb057465</guid>
+    <fileName>Assets/Group_2/Scripts/Gabi/DialogTrigger.cs</fileName>
+    <timeStamp>2023-06-20T11:48:44.1852321+02:00</timeStamp>
+    <typeFullName>
+      <string>DialogTrigger</string>
+      <string>Message</string>
+      <string>Actor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7d0de36a965e8fb4f97e40a5f1d80c84</guid>
+    <fileName>Assets/Group_2/Scripts/Gabi/NPC.cs</fileName>
+    <timeStamp>2023-06-20T11:49:04.2956869+02:00</timeStamp>
+    <typeFullName>
+      <string>NPC</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a1f17ddf1ff577e42aa6c9df2ffc039a</guid>
+    <fileName>Assets/Group_3/Scripts/Input/CinemachinePOVExtension.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0276876+02:00</timeStamp>
+    <typeFullName>
+      <string>CinemachinePOVExtension</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>448d84b4e1634fd41862900df24d2506</guid>
+    <fileName>Assets/Group_3/Scripts/Input/GameInput.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.3681618+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>989e7867a150dc942acc7668946c0fb4</guid>
+    <fileName>Assets/Group_3/Scripts/Input/InputReader.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0306827+02:00</timeStamp>
+    <typeFullName>
+      <string>InputReader</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2a6b27af03c393c488489d2fc6dfff83</guid>
+    <fileName>Assets/Group_3/Scripts/Input/PlayerSettings.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0316903+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerSettings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2106e8f56a6f39746a7f533dd5a9e1a1</guid>
+    <fileName>Assets/Group_3/Scripts/NPC/FixedMovement.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0326827+02:00</timeStamp>
+    <typeFullName>
+      <string>FixedMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fad94535e921f6f45b782325f9335be4</guid>
+    <fileName>Assets/Group_3/Scripts/NPC/FollowMovement.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.3714064+02:00</timeStamp>
+    <typeFullName>
+      <string>FollowMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6457e7755d9f7274f8c6e964449222cc</guid>
+    <fileName>Assets/Group_3/Scripts/NPC/RandomMovement.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.3722006+02:00</timeStamp>
+    <typeFullName>
+      <string>RandomMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c466159e00e47414e80b78990eb59fc3</guid>
+    <fileName>Assets/Group_3/Scripts/Player/PlayerJump.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.034683+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerJump</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fda213a130ff83c48abae8392a9078c6</guid>
+    <fileName>Assets/Group_3/Scripts/Player/PlayerMovement.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0356867+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>901fb2d1adfc01e4b8490c155cab78ab</guid>
+    <fileName>Assets/Group_3/Scripts/Player/StatsSO.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.037683+02:00</timeStamp>
+    <typeFullName>
+      <string>StatsSO</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>04f130a508673d044b6e0f9b75136797</guid>
+    <fileName>Assets/Group_3/Scripts/Random_Events/EventManager.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0386828+02:00</timeStamp>
+    <typeFullName>
+      <string>EventManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>45d81a20743ff42a3b0dfbd499d4797e</guid>
+    <fileName>Assets/PathCreator/Core/Editor/PathEditor.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4904522+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f417e74782fffcd40b77b0fdbe82af04</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5320836+02:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.GeneratePathExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33aabe1a2dec93349b06e6e5dc51bc06</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/PathFollower.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.1936889+02:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathFollower</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d12b1fe1b42884d7692049d7f6f79ee9</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/PathPlacer.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5329446+02:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathPlacer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83aca5399f4e71c44b5d6c1314b5b95f</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/PathSceneTool.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5338925+02:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathSceneTool</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b617cc208d0104cad9534d503ff3e1cf</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/PathSpawner.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.535068+02:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b275c3b78f8717c4cbc60f74a3247f67</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5358463+02:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.RoadMeshCreator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>476cc7d7cd9874016adc216baab94a0a</guid>
+    <fileName>Assets/Dont_Edit/TutorialInfo/Scripts/Editor/ReadmeEditor.cs</fileName>
+    <timeStamp>2023-06-20T11:48:20.3155111+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7ae8f0f7c58434644adc29143ddd64ef</guid>
+    <fileName>Assets/Group_1/Assets/Character Model/OldStabbingGuy/KnifeAttacks.cs</fileName>
+    <timeStamp>2023-06-20T12:27:09.2993194+02:00</timeStamp>
+    <typeFullName>
+      <string>KnifeAttacks</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>651328b601eeed44ba1d1bc251a404ab</guid>
+    <fileName>Assets/Group_1/Assets/Character Model/OldStabbingGuy/KnifeIK.cs</fileName>
+    <timeStamp>2023-06-20T12:27:09.3023198+02:00</timeStamp>
+    <typeFullName>
+      <string>KnifeIK</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ec72980442fddac4d86e75ab24b4d027</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.1542269+02:00</timeStamp>
+    <typeFullName>
+      <string>FirstPersonLook</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>97fca36bd81de7c4cafce7bbf02ca611</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.1554059+02:00</timeStamp>
+    <typeFullName>
+      <string>FirstPersonMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>315afa157234aee4d9f6fc17af222a13</guid>
+    <fileName>Assets/Group_3/Scripts/Random_Events/EventTypes/BirdEvent.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0396824+02:00</timeStamp>
+    <typeFullName>
+      <string>BirdEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd645dd41c7312541b895c0cbc7bb921</guid>
+    <fileName>Assets/Group_3/Scripts/Random_Events/EventTypes/CarEvent.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0396824+02:00</timeStamp>
+    <typeFullName>
+      <string>CarEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bd0de63ca5c52504a8d2063418a326c3</guid>
+    <fileName>Assets/PathCreator/Core/Editor/Helper/MouseUtility.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4872691+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>804ddb43548540a4ca3b0a534a75c4b3</guid>
+    <fileName>Assets/PathCreator/Core/Editor/Helper/PathHandle.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4875972+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>05aed72a972059e45a62e31c2bb60fc4</guid>
+    <fileName>Assets/PathCreator/Core/Editor/Helper/ScreenSpacePolyLine.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4884058+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>756209f371f304fb1920c53a8a25a5e2</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4914519+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c0d7fa70c03166e4180909b6e5d546c7</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/EndOfPathInstruction.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4924513+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>46d5e8d803e252f4499b52e657f8e1a2</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/GlobalDisplaySettings.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4929393+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>194e1b7893dcbf940a71eb507d8b10f3</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/MinMax3D.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4938723+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8e5ac92bc18f545cc84cd886ece82b4d</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/PathCreator.cs</fileName>
+    <timeStamp>2023-06-20T11:49:05.0866864+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>19547029ffb83484e90d00c182104817</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/PathCreatorData.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4945868+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>407af8f85a5bae449bce4730c5d97d1a</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/PathSpace.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4954275+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>223183313f20d4049a397d83fab3151e</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Objects/VertexPath.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4962151+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c66a6536bb2d641558729d6da1ec7594</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Utility/CubicBezierUtility.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4984775+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>096bae1d1ed960d4bb7605dce06767c1</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Utility/MathUtility.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.4995554+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5505526f3c472e8499fa7ce169410ace</guid>
+    <fileName>Assets/PathCreator/Core/Runtime/Utility/VertexPathUtility.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5015885+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>db8aedf6f6cf2734cb24c49646427e96</guid>
+    <fileName>Assets/PathCreator/Examples/Scripts/Editor/PathSceneToolEditor.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.5316553+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f970ea55f9f84bf79b05dab180b8c125</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4292225+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark01</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8ef7be1c625941f7ba8ed7cc71718c0d</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4322277+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark01_UGUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e8538afcddc14efbb5d9e94b7ae50197</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.433221+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark02</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a73109742c8d47ac822895a473300c29</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4362283+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark03</string>
+      <string>TMPro.Examples.Benchmark03+BenchmarkType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dc20866c0d5e413ab7559440e15333ae</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4372195+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark04</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2d687537154440a3913a9a3c7977978c</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4392284+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.CameraController</string>
+      <string>TMPro.Examples.CameraController+CameraModes</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>53d91f98a2664f5cb9af11de72ac54ec</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.44022+02:00</timeStamp>
+    <typeFullName>
+      <string>ChatController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac1eb05af6d391b4eb0f4c070a99f1d0</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4422286+02:00</timeStamp>
+    <typeFullName>
+      <string>DropdownSample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4b6f99e8bc54541bbd149b014ff441c</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.443221+02:00</timeStamp>
+    <typeFullName>
+      <string>EnvMapAnimator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4f19c7f94c794c5097d8bd11e39c750d</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4682272+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.ObjectSpin</string>
+      <string>TMPro.Examples.ObjectSpin+MotionType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2787a46a4dc848c1b4b7b9307b614bfd</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4682272+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.ShaderPropAnimator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9eff140b25d64601aabc6ba32245d099</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4812269+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.SimpleScript</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d412675cfb3441efa3bf8dcd9b7624dc</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4822195+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.SkewTextExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e32c266ee6204b21a427753cb0694c81</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5332201+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TeleType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>43bcd35a1c0c40ccb6d472893fe2093f</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.534221+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TextConsoleSimulator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4d4c76e63944cba8c7d00f56334b98c</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.534221+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TextMeshProFloatingText</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>76c11bbcfddf44e0ba17d6c2751c8d84</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5382282+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TextMeshSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c3c1afeda5e545e0b19add5373896d2e</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5322267+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMPro_InstructionOverlay</string>
+      <string>TMPro.Examples.TMPro_InstructionOverlay+FpsCounterAnchorPositions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1a7eb92a01ed499a987bde9def05fbce</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4852268+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.TMP_DigitValidator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f2c5b59b6874405865e2616e4ec276a</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.48622+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_ExampleScript_01</string>
+      <string>TMPro.Examples.TMP_ExampleScript_01+objectType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>686ec78b56aa445795335fbadafcfaa4</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4882308+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_FrameRateCounter</string>
+      <string>TMPro.Examples.TMP_FrameRateCounter+FpsCounterAnchorPositions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83680ab1a69f4102ac67d1459fe76e1f</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4892197+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.TMP_PhoneNumberValidator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d736ce056cf444ca96e424f4d9c42b76</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4932205+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextEventCheck</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1312ae25639a4bae8e25ae223209cc50</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4932205+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.TMP_TextEventHandler</string>
+      <string>TMPro.TMP_TextEventHandler+CharacterSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+SpriteSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+WordSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+LineSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+LinkSelectionEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>21256c5b62f346f18640dad779911e20</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4962267+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextInfoDebugTool</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>103e0a6a1d404693b9fb1a5173e0e979</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.4962267+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextSelector_A</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a05dcd8be7ec4ccbb35c26219884aa37</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5172263+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextSelector_B</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>24b0dc2d1d494adbbec1f4db26b4cf83</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5292266+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_UiFrameRateCounter</string>
+      <string>TMPro.Examples.TMP_UiFrameRateCounter+FpsCounterAnchorPositions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91b8ba3d52e041fab2d0e0f169855539</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5392272+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexColorCycler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2ed57967c52645d390a89dcf8f61ba73</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5582277+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexJitter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f7cfa58e417a46ea8889989684c2522e</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.559225+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexShakeA</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e4e0d9ccee5f4950be8979268c9014e0</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5692203+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexShakeB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>52ec835d14bd486f900952b77698b7eb</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5702195+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexZoom</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>790744c462254b7ba8038e6ed28b3db2</guid>
+    <fileName>Assets/TMP/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs</fileName>
+    <timeStamp>2023-06-20T11:49:08.5712265+02:00</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.WarpTextExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>27b67ddb3d23b8340b125aede56d7e8c</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/Components/Crouch.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.1508783+02:00</timeStamp>
+    <typeFullName>
+      <string>Crouch</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f45facc01772ba47a9ae17bb7061b71</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.1518745+02:00</timeStamp>
+    <typeFullName>
+      <string>FirstPersonAudio</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>084c01ab381b9da4082c1f84cf70751b</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs</fileName>
+    <timeStamp>2023-06-20T11:48:32.251616+02:00</timeStamp>
+    <typeFullName>
+      <string>GroundCheck</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8f977f53412d81140ab13b3fca57cca2</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/Components/Jump.cs</fileName>
+    <timeStamp>2023-06-20T11:48:32.2526096+02:00</timeStamp>
+    <typeFullName>
+      <string>Jump</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>780f90e951d635f439326ea715cd97e9</guid>
+    <fileName>Assets/Group_2/Assets/Mini First Person Controller/Scripts/Components/Zoom.cs</fileName>
+    <timeStamp>2023-06-20T12:27:16.1528712+02:00</timeStamp>
+    <typeFullName>
+      <string>Zoom</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>
