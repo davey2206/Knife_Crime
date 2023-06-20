@@ -14,22 +14,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void ToggleSettings()
-    {
-        settingsActive = !settingsActive;
-
-        if (settingsActive)
-        {
-            Menu.SetActive(false);
-            Setting.SetActive(true);
-        }
-        else
-        {
-            Menu.SetActive(true);
-            Setting.SetActive(false);
-        }
-    }
-
     public void QuitGame()
     {
         Application.Quit();

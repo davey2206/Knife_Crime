@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/Group_1/FMOD/Runnergame/Build/Desktop/Bank A.bank
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 638228585049781153
+  lastModified: 638228740669396404
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -62,7 +62,7 @@ MonoBehaviour:
   Path: Assets/Group_1/FMOD/Runnergame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638228585049841272
+  lastModified: 638228740669416545
   FileSizes:
   - Name: Desktop
     Value: 575392
@@ -90,7 +90,7 @@ MonoBehaviour:
   - {fileID: -3465295193062065190}
   StringsBanks:
   - {fileID: 1684874350817252943}
-  cacheTime: 638228585049851132
+  cacheTime: 638228740669426628
   cacheVersion: 131603
 --- !u!114 &1684874350817252943
 MonoBehaviour:
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: Assets/Group_1/FMOD/Runnergame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638228585049851132
+  lastModified: 638228740669426628
   FileSizes:
   - Name: Desktop
     Value: 822
