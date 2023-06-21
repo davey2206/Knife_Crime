@@ -8,6 +8,10 @@ public class DamageTracker : MonoBehaviour
     [SerializeField] private bool player = false;
     [SerializeField] private KnifeFightStart UIManager;
 
+    [SerializeField] private AudioClip[] stabSFX;
+    [SerializeField] private AudioClip[] groanSFX;
+    [SerializeField] private AudioSource audioSource;
+
     private int realHitpoints;
 
     private bool invincible = false;
@@ -35,6 +39,13 @@ public class DamageTracker : MonoBehaviour
     {
         if(!invincible)
         {
+            int r = Random.Range(0, stabSFX.Length);
+            audioSource.clip = stabSFX[r];
+            audioSource.PlayOneShot(audioSource.clip);
+            r = Random.Range(0, groanSFX.Length);
+            audioSource.clip = groanSFX[r];
+            audioSource.PlayOneShot(audioSource.clip);
+
             invincible = true;
             hitpoints -= damageValue;
             if (hitpoints <= 0)
