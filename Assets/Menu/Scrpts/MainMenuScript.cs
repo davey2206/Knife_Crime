@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     bool settingsActive = false;
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GetComponent<SceneChanger>().changeScene();
     }
 
     public void QuitGame()
